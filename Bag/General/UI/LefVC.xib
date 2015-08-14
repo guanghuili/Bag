@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LefVC" customModule="Bag" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="Y6W-h1-cK2">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="mpR-Sz-rrD"/>
+                <viewControllerLayoutGuide type="bottom" id="ueb-SV-gst"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="BUJ-hy-g2T">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="Y7Y-Cs-Swr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y7Y-Cs-Swr" id="o5H-Sf-huf">
+                            <autoresizingMask key="autoresizingMask"/>
+                        </tableViewCellContentView>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="XCY-Ts-V3B"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="XCY-Ts-V3B"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="XCY-Ts-V3B"/>
+                            </mask>
+                        </variation>
+                    </tableViewCell>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="yuv-gz-CnQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="yuv-gz-CnQ" secondAttribute="bottom" id="HNd-Yw-KcO"/>
+                    <constraint firstItem="yuv-gz-CnQ" firstAttribute="width" secondItem="Y7Y-Cs-Swr" secondAttribute="width" id="JrH-eY-ZxC"/>
+                    <constraint firstItem="yuv-gz-CnQ" firstAttribute="leading" secondItem="BUJ-hy-g2T" secondAttribute="leading" id="PHc-tF-zMI"/>
+                    <constraint firstItem="Y7Y-Cs-Swr" firstAttribute="top" secondItem="BUJ-hy-g2T" secondAttribute="top" id="Rjc-aV-bbW"/>
+                    <constraint firstItem="Y7Y-Cs-Swr" firstAttribute="leading" secondItem="BUJ-hy-g2T" secondAttribute="leading" id="cY0-mJ-ugf"/>
+                    <constraint firstItem="yuv-gz-CnQ" firstAttribute="top" secondItem="BUJ-hy-g2T" secondAttribute="top" id="f3o-DS-28Q"/>
+                    <constraint firstAttribute="trailing" secondItem="yuv-gz-CnQ" secondAttribute="trailing" id="hj0-ck-sFL"/>
+                    <constraint firstAttribute="trailing" secondItem="Y7Y-Cs-Swr" secondAttribute="trailing" id="ybR-gd-QDT"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="Y7Y-Cs-Swr"/>
+                        <exclude reference="yuv-gz-CnQ"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="Rjc-aV-bbW"/>
+                        <exclude reference="cY0-mJ-ugf"/>
+                        <exclude reference="ybR-gd-QDT"/>
+                        <exclude reference="HNd-Yw-KcO"/>
+                        <exclude reference="JrH-eY-ZxC"/>
+                        <exclude reference="PHc-tF-zMI"/>
+                        <exclude reference="f3o-DS-28Q"/>
+                        <exclude reference="hj0-ck-sFL"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="Y7Y-Cs-Swr"/>
+                        <include reference="yuv-gz-CnQ"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="Rjc-aV-bbW"/>
+                        <include reference="cY0-mJ-ugf"/>
+                        <include reference="ybR-gd-QDT"/>
+                        <include reference="HNd-Yw-KcO"/>
+                        <include reference="JrH-eY-ZxC"/>
+                        <include reference="PHc-tF-zMI"/>
+                        <include reference="f3o-DS-28Q"/>
+                        <include reference="hj0-ck-sFL"/>
+                    </mask>
+                </variation>
+            </view>
+            <point key="canvasLocation" x="261" y="160"/>
+        </viewController>
+    </objects>
+</document>
