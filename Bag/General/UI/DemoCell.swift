@@ -8,14 +8,13 @@
 
 import UIKit
 
-class DemoCell: UITableViewCell {
+class DemoCell: LighSwipeCell {
     
     
     @IBOutlet weak var label: UILabel!
     
-    override func awakeFromNib()
-    {
-            self.contentView.bounds = UIScreen.mainScreen().bounds
-    }
+
+    
+    
     
 }

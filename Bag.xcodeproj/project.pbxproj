@@ -8,6 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		9103C9301B19BF8500AB48F2 /* swift_libTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9103C92F1B19BF8500AB48F2 /* swift_libTests.swift */; };
+		910A234E1B7DFE33004612B3 /* LighSwipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A234D1B7DFE33004612B3 /* LighSwipeCell.swift */; };
+		910A236D1B7E3F01004612B3 /* 00启动页_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23501B7E3F01004612B3 /* 00启动页_640.png */; };
+		910A236E1B7E3F01004612B3 /* 00启动页.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23511B7E3F01004612B3 /* 00启动页.png */; };
+		910A236F1B7E3F01004612B3 /* 00启动页960.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23521B7E3F01004612B3 /* 00启动页960.png */; };
+		910A23701B7E3F01004612B3 /* 01主页-1默认页.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23531B7E3F01004612B3 /* 01主页-1默认页.png */; };
+		910A23711B7E3F01004612B3 /* 01主页-2滑动.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23541B7E3F01004612B3 /* 01主页-2滑动.png */; };
+		910A23721B7E3F01004612B3 /* 01主页-3滑动.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23551B7E3F01004612B3 /* 01主页-3滑动.png */; };
+		910A23731B7E3F01004612B3 /* 01主页-4加载.gif in Resources */ = {isa = PBXBuildFile; fileRef = 910A23561B7E3F01004612B3 /* 01主页-4加载.gif */; };
+		910A23741B7E3F01004612B3 /* 02添加行程-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23571B7E3F01004612B3 /* 02添加行程-1.png */; };
+		910A23751B7E3F01004612B3 /* 02添加行程-2添加物品.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23581B7E3F01004612B3 /* 02添加行程-2添加物品.png */; };
+		910A23761B7E3F01004612B3 /* 02添加行程-3添加物品.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23591B7E3F01004612B3 /* 02添加行程-3添加物品.png */; };
+		910A23771B7E3F01004612B3 /* 02添加行程-4调整分类.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A235A1B7E3F01004612B3 /* 02添加行程-4调整分类.png */; };
+		910A23781B7E3F01004612B3 /* 02添加行程-5编辑分类.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A235B1B7E3F01004612B3 /* 02添加行程-5编辑分类.png */; };
+		910A23791B7E3F01004612B3 /* 03添加交通信息-1飞机.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A235C1B7E3F01004612B3 /* 03添加交通信息-1飞机.png */; };
+		910A237A1B7E3F01004612B3 /* 03添加交通信息-2火车.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A235D1B7E3F01004612B3 /* 03添加交通信息-2火车.png */; };
+		910A237B1B7E3F01004612B3 /* 04添加住宿-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A235E1B7E3F01004612B3 /* 04添加住宿-1.png */; };
+		910A237C1B7E3F01004612B3 /* 05行程详情-1物品.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A235F1B7E3F01004612B3 /* 05行程详情-1物品.png */; };
+		910A237D1B7E3F01004612B3 /* 05行程详情-2住宿.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23601B7E3F01004612B3 /* 05行程详情-2住宿.png */; };
+		910A237E1B7E3F01004612B3 /* 05行程详情-3编辑住宿.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23611B7E3F01004612B3 /* 05行程详情-3编辑住宿.png */; };
+		910A237F1B7E3F01004612B3 /* 05行程详情-4交通.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23621B7E3F01004612B3 /* 05行程详情-4交通.png */; };
+		910A23801B7E3F01004612B3 /* 05行程详情-5下拉信息.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23631B7E3F01004612B3 /* 05行程详情-5下拉信息.png */; };
+		910A23811B7E3F01004612B3 /* 06个人中心-1未登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23641B7E3F01004612B3 /* 06个人中心-1未登录.png */; };
+		910A23821B7E3F01004612B3 /* 06个人中心-2已登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23651B7E3F01004612B3 /* 06个人中心-2已登录.png */; };
+		910A23831B7E3F01004612B3 /* 06个人中心-3编辑名称.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23661B7E3F01004612B3 /* 06个人中心-3编辑名称.png */; };
+		910A23841B7E3F01004612B3 /* 06个人中心-4登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23671B7E3F01004612B3 /* 06个人中心-4登录.png */; };
+		910A23851B7E3F01004612B3 /* 06个人中心-5意见反馈.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23681B7E3F01004612B3 /* 06个人中心-5意见反馈.png */; };
+		910A23861B7E3F01004612B3 /* 06个人中心-6关于行囊.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23691B7E3F01004612B3 /* 06个人中心-6关于行囊.png */; };
+		910A23871B7E3F01004612B3 /* 06个人中心-7版本检测.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A236A1B7E3F01004612B3 /* 06个人中心-7版本检测.png */; };
+		910A23881B7E3F01004612B3 /* 06个人中心-8已是新版本.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A236B1B7E3F01004612B3 /* 06个人中心-8已是新版本.png */; };
+		910A23891B7E3F01004612B3 /* 06个人中心-9退出登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A236C1B7E3F01004612B3 /* 06个人中心-9退出登录.png */; };
+		910A238B1B7E4E70004612B3 /* TravelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A238A1B7E4E70004612B3 /* TravelListViewController.swift */; };
+		910A238E1B7E4EC9004612B3 /* RecentlyTravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A238D1B7E4EC9004612B3 /* RecentlyTravelCell.swift */; };
+		910A23901B7E56D3004612B3 /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A238F1B7E56D3004612B3 /* TravelCell.swift */; };
+		910A23931B7E8990004612B3 /* SwipeEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A23921B7E8990004612B3 /* SwipeEditCell.m */; };
 		91FC6B031B7D80600086E6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A811B7D80600086E6AA /* AppDelegate.swift */; };
 		91FC6B041B7D80600086E6AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A821B7D80600086E6AA /* LaunchScreen.xib */; };
 		91FC6B051B7D80600086E6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A841B7D80600086E6AA /* Main.storyboard */; };
@@ -123,6 +157,41 @@
 		9103C9291B19BF8500AB48F2 /* BagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9103C92E1B19BF8500AB48F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9103C92F1B19BF8500AB48F2 /* swift_libTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_libTests.swift; sourceTree = "<group>"; };
+		910A234D1B7DFE33004612B3 /* LighSwipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighSwipeCell.swift; sourceTree = "<group>"; };
+		910A23501B7E3F01004612B3 /* 00启动页_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页_640.png"; sourceTree = "<group>"; };
+		910A23511B7E3F01004612B3 /* 00启动页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页.png"; sourceTree = "<group>"; };
+		910A23521B7E3F01004612B3 /* 00启动页960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页960.png"; sourceTree = "<group>"; };
+		910A23531B7E3F01004612B3 /* 01主页-1默认页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01主页-1默认页.png"; sourceTree = "<group>"; };
+		910A23541B7E3F01004612B3 /* 01主页-2滑动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01主页-2滑动.png"; sourceTree = "<group>"; };
+		910A23551B7E3F01004612B3 /* 01主页-3滑动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01主页-3滑动.png"; sourceTree = "<group>"; };
+		910A23561B7E3F01004612B3 /* 01主页-4加载.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "01主页-4加载.gif"; sourceTree = "<group>"; };
+		910A23571B7E3F01004612B3 /* 02添加行程-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02添加行程-1.png"; sourceTree = "<group>"; };
+		910A23581B7E3F01004612B3 /* 02添加行程-2添加物品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02添加行程-2添加物品.png"; sourceTree = "<group>"; };
+		910A23591B7E3F01004612B3 /* 02添加行程-3添加物品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02添加行程-3添加物品.png"; sourceTree = "<group>"; };
+		910A235A1B7E3F01004612B3 /* 02添加行程-4调整分类.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02添加行程-4调整分类.png"; sourceTree = "<group>"; };
+		910A235B1B7E3F01004612B3 /* 02添加行程-5编辑分类.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02添加行程-5编辑分类.png"; sourceTree = "<group>"; };
+		910A235C1B7E3F01004612B3 /* 03添加交通信息-1飞机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03添加交通信息-1飞机.png"; sourceTree = "<group>"; };
+		910A235D1B7E3F01004612B3 /* 03添加交通信息-2火车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03添加交通信息-2火车.png"; sourceTree = "<group>"; };
+		910A235E1B7E3F01004612B3 /* 04添加住宿-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04添加住宿-1.png"; sourceTree = "<group>"; };
+		910A235F1B7E3F01004612B3 /* 05行程详情-1物品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05行程详情-1物品.png"; sourceTree = "<group>"; };
+		910A23601B7E3F01004612B3 /* 05行程详情-2住宿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05行程详情-2住宿.png"; sourceTree = "<group>"; };
+		910A23611B7E3F01004612B3 /* 05行程详情-3编辑住宿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05行程详情-3编辑住宿.png"; sourceTree = "<group>"; };
+		910A23621B7E3F01004612B3 /* 05行程详情-4交通.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05行程详情-4交通.png"; sourceTree = "<group>"; };
+		910A23631B7E3F01004612B3 /* 05行程详情-5下拉信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05行程详情-5下拉信息.png"; sourceTree = "<group>"; };
+		910A23641B7E3F01004612B3 /* 06个人中心-1未登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-1未登录.png"; sourceTree = "<group>"; };
+		910A23651B7E3F01004612B3 /* 06个人中心-2已登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-2已登录.png"; sourceTree = "<group>"; };
+		910A23661B7E3F01004612B3 /* 06个人中心-3编辑名称.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-3编辑名称.png"; sourceTree = "<group>"; };
+		910A23671B7E3F01004612B3 /* 06个人中心-4登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-4登录.png"; sourceTree = "<group>"; };
+		910A23681B7E3F01004612B3 /* 06个人中心-5意见反馈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-5意见反馈.png"; sourceTree = "<group>"; };
+		910A23691B7E3F01004612B3 /* 06个人中心-6关于行囊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-6关于行囊.png"; sourceTree = "<group>"; };
+		910A236A1B7E3F01004612B3 /* 06个人中心-7版本检测.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-7版本检测.png"; sourceTree = "<group>"; };
+		910A236B1B7E3F01004612B3 /* 06个人中心-8已是新版本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-8已是新版本.png"; sourceTree = "<group>"; };
+		910A236C1B7E3F01004612B3 /* 06个人中心-9退出登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-9退出登录.png"; sourceTree = "<group>"; };
+		910A238A1B7E4E70004612B3 /* TravelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelListViewController.swift; sourceTree = "<group>"; };
+		910A238D1B7E4EC9004612B3 /* RecentlyTravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyTravelCell.swift; sourceTree = "<group>"; };
+		910A238F1B7E56D3004612B3 /* TravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
+		910A23911B7E8990004612B3 /* SwipeEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeEditCell.h; sourceTree = "<group>"; };
+		910A23921B7E8990004612B3 /* SwipeEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeEditCell.m; sourceTree = "<group>"; };
 		91FC6A811B7D80600086E6AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91FC6A831B7D80600086E6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91FC6A851B7D80600086E6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -303,9 +372,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		910A234C1B7DFE0E004612B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				910A23911B7E8990004612B3 /* SwipeEditCell.h */,
+				910A23921B7E8990004612B3 /* SwipeEditCell.m */,
+				910A234D1B7DFE33004612B3 /* LighSwipeCell.swift */,
+			);
+			name = Cells;
+			path = Bag/General/Cells;
+			sourceTree = SOURCE_ROOT;
+		};
+		910A234F1B7E3EF6004612B3 /* ImageUI */ = {
+			isa = PBXGroup;
+			children = (
+				910A23501B7E3F01004612B3 /* 00启动页_640.png */,
+				910A23511B7E3F01004612B3 /* 00启动页.png */,
+				910A23521B7E3F01004612B3 /* 00启动页960.png */,
+				910A23531B7E3F01004612B3 /* 01主页-1默认页.png */,
+				910A23541B7E3F01004612B3 /* 01主页-2滑动.png */,
+				910A23551B7E3F01004612B3 /* 01主页-3滑动.png */,
+				910A23561B7E3F01004612B3 /* 01主页-4加载.gif */,
+				910A23571B7E3F01004612B3 /* 02添加行程-1.png */,
+				910A23581B7E3F01004612B3 /* 02添加行程-2添加物品.png */,
+				910A23591B7E3F01004612B3 /* 02添加行程-3添加物品.png */,
+				910A235A1B7E3F01004612B3 /* 02添加行程-4调整分类.png */,
+				910A235B1B7E3F01004612B3 /* 02添加行程-5编辑分类.png */,
+				910A235C1B7E3F01004612B3 /* 03添加交通信息-1飞机.png */,
+				910A235D1B7E3F01004612B3 /* 03添加交通信息-2火车.png */,
+				910A235E1B7E3F01004612B3 /* 04添加住宿-1.png */,
+				910A235F1B7E3F01004612B3 /* 05行程详情-1物品.png */,
+				910A23601B7E3F01004612B3 /* 05行程详情-2住宿.png */,
+				910A23611B7E3F01004612B3 /* 05行程详情-3编辑住宿.png */,
+				910A23621B7E3F01004612B3 /* 05行程详情-4交通.png */,
+				910A23631B7E3F01004612B3 /* 05行程详情-5下拉信息.png */,
+				910A23641B7E3F01004612B3 /* 06个人中心-1未登录.png */,
+				910A23651B7E3F01004612B3 /* 06个人中心-2已登录.png */,
+				910A23661B7E3F01004612B3 /* 06个人中心-3编辑名称.png */,
+				910A23671B7E3F01004612B3 /* 06个人中心-4登录.png */,
+				910A23681B7E3F01004612B3 /* 06个人中心-5意见反馈.png */,
+				910A23691B7E3F01004612B3 /* 06个人中心-6关于行囊.png */,
+				910A236A1B7E3F01004612B3 /* 06个人中心-7版本检测.png */,
+				910A236B1B7E3F01004612B3 /* 06个人中心-8已是新版本.png */,
+				910A236C1B7E3F01004612B3 /* 06个人中心-9退出登录.png */,
+			);
+			path = ImageUI;
+			sourceTree = "<group>";
+		};
+		910A238C1B7E4EAD004612B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				910A238D1B7E4EC9004612B3 /* RecentlyTravelCell.swift */,
+				910A238F1B7E56D3004612B3 /* TravelCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		91FC6A801B7D80600086E6AA /* Bag */ = {
 			isa = PBXGroup;
 			children = (
+				910A234F1B7E3EF6004612B3 /* ImageUI */,
 				91FC6A811B7D80600086E6AA /* AppDelegate.swift */,
 				91FC6A821B7D80600086E6AA /* LaunchScreen.xib */,
 				91FC6A841B7D80600086E6AA /* Main.storyboard */,
@@ -383,9 +509,11 @@
 		91FC6A9C1B7D80600086E6AA /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				910A238C1B7E4EAD004612B3 /* Cells */,
 				91FC6A9D1B7D80600086E6AA /* LefVC.swift */,
 				91FC6A9E1B7D80600086E6AA /* LefVC.xib */,
 				91FC6B541B7DD0B80086E6AA /* DemoCell.swift */,
+				910A238A1B7E4E70004612B3 /* TravelListViewController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -393,6 +521,7 @@
 		91FC6A9F1B7D80600086E6AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				910A234C1B7DFE0E004612B3 /* Cells */,
 				91FC6AA01B7D80600086E6AA /* AlertView */,
 				91FC6AA21B7D80600086E6AA /* Loading */,
 			);
@@ -668,6 +797,7 @@
 				TargetAttributes = {
 					9103C9131B19BF8500AB48F2 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = V4Q5CVEM8S;
 					};
 					9103C9281B19BF8500AB48F2 = {
 						CreatedOnToolsVersion = 6.1;
@@ -699,13 +829,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910A236E1B7E3F01004612B3 /* 00启动页.png in Resources */,
+				910A23741B7E3F01004612B3 /* 02添加行程-1.png in Resources */,
 				91FC6B1A1B7D80600086E6AA /* LighIndicatorView.xib in Resources */,
+				910A23751B7E3F01004612B3 /* 02添加行程-2添加物品.png in Resources */,
+				910A23881B7E3F01004612B3 /* 06个人中心-8已是新版本.png in Resources */,
+				910A236D1B7E3F01004612B3 /* 00启动页_640.png in Resources */,
+				910A23861B7E3F01004612B3 /* 06个人中心-6关于行囊.png in Resources */,
+				910A23781B7E3F01004612B3 /* 02添加行程-5编辑分类.png in Resources */,
+				910A23811B7E3F01004612B3 /* 06个人中心-1未登录.png in Resources */,
 				91FC6B931B7DF08B0086E6AA /* Info.plist in Resources */,
+				910A237E1B7E3F01004612B3 /* 05行程详情-3编辑住宿.png in Resources */,
+				910A237D1B7E3F01004612B3 /* 05行程详情-2住宿.png in Resources */,
+				910A237F1B7E3F01004612B3 /* 05行程详情-4交通.png in Resources */,
+				910A23701B7E3F01004612B3 /* 01主页-1默认页.png in Resources */,
+				910A23841B7E3F01004612B3 /* 06个人中心-4登录.png in Resources */,
+				910A237C1B7E3F01004612B3 /* 05行程详情-1物品.png in Resources */,
 				91FC6B0D1B7D80600086E6AA /* LighNavigationBarView.xib in Resources */,
 				91FC6B041B7D80600086E6AA /* LaunchScreen.xib in Resources */,
+				910A23731B7E3F01004612B3 /* 01主页-4加载.gif in Resources */,
 				91FC6B1E1B7D80600086E6AA /* Images.xcassets in Resources */,
+				910A23801B7E3F01004612B3 /* 05行程详情-5下拉信息.png in Resources */,
+				910A23851B7E3F01004612B3 /* 06个人中心-5意见反馈.png in Resources */,
+				910A23771B7E3F01004612B3 /* 02添加行程-4调整分类.png in Resources */,
+				910A236F1B7E3F01004612B3 /* 00启动页960.png in Resources */,
+				910A23721B7E3F01004612B3 /* 01主页-3滑动.png in Resources */,
+				910A23821B7E3F01004612B3 /* 06个人中心-2已登录.png in Resources */,
+				910A237B1B7E3F01004612B3 /* 04添加住宿-1.png in Resources */,
+				910A237A1B7E3F01004612B3 /* 03添加交通信息-2火车.png in Resources */,
+				910A23831B7E3F01004612B3 /* 06个人中心-3编辑名称.png in Resources */,
+				910A23711B7E3F01004612B3 /* 01主页-2滑动.png in Resources */,
+				910A23761B7E3F01004612B3 /* 02添加行程-3添加物品.png in Resources */,
+				910A23891B7E3F01004612B3 /* 06个人中心-9退出登录.png in Resources */,
 				91FC6B171B7D80600086E6AA /* LefVC.xib in Resources */,
 				91FC6B051B7D80600086E6AA /* Main.storyboard in Resources */,
+				910A23871B7E3F01004612B3 /* 06个人中心-7版本检测.png in Resources */,
+				910A23791B7E3F01004612B3 /* 03添加交通信息-1飞机.png in Resources */,
 				91FC6B1F1B7D80600086E6AA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,8 +907,10 @@
 				91FC6B391B7D80600086E6AA /* SDWebImageManager.m in Sources */,
 				91FC6B911B7DF08B0086E6AA /* Debugging.swift in Sources */,
 				91FC6B1C1B7D80600086E6AA /* LighHttpRequestManager.swift in Sources */,
+				910A23931B7E8990004612B3 /* SwipeEditCell.m in Sources */,
 				91FC6B341B7D80600086E6AA /* SDImageCache.m in Sources */,
 				91FC6B8F1B7DF08B0086E6AA /* ConstraintMaker.swift in Sources */,
+				910A234E1B7DFE33004612B3 /* LighSwipeCell.swift in Sources */,
 				91FC6B551B7DD0B80086E6AA /* DemoCell.swift in Sources */,
 				91FC6B421B7D80600086E6AA /* SloppySwiper.m in Sources */,
 				91FC6B921B7DF08B0086E6AA /* EdgeInsets.swift in Sources */,
@@ -766,6 +927,7 @@
 				91FC6B3D1B7D80600086E6AA /* UIImage+MultiFormat.m in Sources */,
 				91FC6B1B1B7D80600086E6AA /* AlamofireExtensions.swift in Sources */,
 				91FC6B3E1B7D80600086E6AA /* UIImage+WebP.m in Sources */,
+				910A238E1B7E4EC9004612B3 /* RecentlyTravelCell.swift in Sources */,
 				91FC6B291B7D80600086E6AA /* DrawerBarButtonItem.swift in Sources */,
 				91FC6B2B1B7D80600086E6AA /* DrawerVisualState.swift in Sources */,
 				91FC6B301B7D80600086E6AA /* SCLButton.m in Sources */,
@@ -784,6 +946,7 @@
 				91FC6B181B7D80600086E6AA /* LighAlertView.swift in Sources */,
 				91FC6B3C1B7D80600086E6AA /* UIImage+GIF.m in Sources */,
 				91FC6B131B7D80600086E6AA /* UIDeviceExtension.swift in Sources */,
+				910A238B1B7E4E70004612B3 /* TravelListViewController.swift in Sources */,
 				91FC6B211B7D80600086E6AA /* Order.swift in Sources */,
 				91FC6B101B7D80600086E6AA /* StringExtension.swift in Sources */,
 				91FC6B321B7D80600086E6AA /* MKAnnotationView+WebCache.m in Sources */,
@@ -795,6 +958,7 @@
 				91FC6B431B7D80600086E6AA /* SloppySwiperNavigationController.m in Sources */,
 				91FC6B8E1B7DF08B0086E6AA /* ConstraintItem.swift in Sources */,
 				91FC6B481B7D80600086E6AA /* ViewController.swift in Sources */,
+				910A23901B7E56D3004612B3 /* TravelCell.swift in Sources */,
 				91FC6B401B7D80600086E6AA /* UIImageView+WebCache.m in Sources */,
 				91FC6B261B7D80600086E6AA /* AMTumblrHud.m in Sources */,
 				91FC6B161B7D80600086E6AA /* LefVC.swift in Sources */,
@@ -921,6 +1085,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -941,6 +1106,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",

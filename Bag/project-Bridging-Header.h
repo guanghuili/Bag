@@ -20,7 +20,7 @@
 #import "SloppySwiper.h"
 #import "SloppySwiperNavigationController.h"
 
-
+#import "SwipeEditCell.h"
 #import "UITableView+FDTemplateLayoutCell.h"//cell auto height
 
 #endif

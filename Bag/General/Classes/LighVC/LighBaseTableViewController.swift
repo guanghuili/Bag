@@ -24,11 +24,13 @@ class LighBaseTableViewController: LighBaseViewController ,UITableViewDelegate,U
         
         
        // #if DEBUG
-            tableview?.fd_debugLogEnabled = true
+     //       tableview?.fd_debugLogEnabled = true
         //#endif
-        
-        tableview?.delegate = self;
-        tableview?.dataSource = self;
+
+        tableview?.separatorStyle = UITableViewCellSeparatorStyle.None
+      //  tableview?.delegate = self;
+        //tableview?.dataSource = self;
+        tableview?.backgroundColor = UIColor(hexString: "#F1F6F8")
     
     }
     
@@ -116,8 +118,9 @@ class LighBaseTableViewController: LighBaseViewController ,UITableViewDelegate,U
     此方法默认不实现 如果有固定高度的 应该使用 tableView.rowHeight
     *
     **/
-//    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//        
-//    }
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        return self.heightForRowAtIndexPath(tableview!, atIndexPath: indexPath)
+    }
     
 }

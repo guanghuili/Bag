@@ -22,7 +22,7 @@ class ViewController: LighBaseTableViewController {
         
     }
     
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return self.heightForRowAtIndexPath(tableview!, atIndexPath: indexPath)
     }
     

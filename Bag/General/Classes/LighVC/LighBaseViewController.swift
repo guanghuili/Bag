@@ -61,7 +61,7 @@ class LighBaseViewController : UIViewController,UITextFieldDelegate
             self.view.addSubview(contentView)
         }
         
-        contentView.backgroundColor = UIColor.ColorMake(red: 245 , green: 245, blue: 245)
+        contentView.backgroundColor = UIColor(hexString: "#F1F6F8")
     }
 
 
