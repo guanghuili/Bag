@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9103C9301B19BF8500AB48F2 /* swift_libTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9103C92F1B19BF8500AB48F2 /* swift_libTests.swift */; };
-		910A234E1B7DFE33004612B3 /* LighSwipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A234D1B7DFE33004612B3 /* LighSwipeCell.swift */; };
 		910A236D1B7E3F01004612B3 /* 00启动页_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23501B7E3F01004612B3 /* 00启动页_640.png */; };
 		910A236E1B7E3F01004612B3 /* 00启动页.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23511B7E3F01004612B3 /* 00启动页.png */; };
 		910A236F1B7E3F01004612B3 /* 00启动页960.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A23521B7E3F01004612B3 /* 00启动页960.png */; };
@@ -38,22 +37,44 @@
 		910A23871B7E3F01004612B3 /* 06个人中心-7版本检测.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A236A1B7E3F01004612B3 /* 06个人中心-7版本检测.png */; };
 		910A23881B7E3F01004612B3 /* 06个人中心-8已是新版本.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A236B1B7E3F01004612B3 /* 06个人中心-8已是新版本.png */; };
 		910A23891B7E3F01004612B3 /* 06个人中心-9退出登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 910A236C1B7E3F01004612B3 /* 06个人中心-9退出登录.png */; };
-		910A238B1B7E4E70004612B3 /* TravelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A238A1B7E4E70004612B3 /* TravelListViewController.swift */; };
-		910A238E1B7E4EC9004612B3 /* RecentlyTravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A238D1B7E4EC9004612B3 /* RecentlyTravelCell.swift */; };
-		910A23901B7E56D3004612B3 /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A238F1B7E56D3004612B3 /* TravelCell.swift */; };
-		910A23931B7E8990004612B3 /* SwipeEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A23921B7E8990004612B3 /* SwipeEditCell.m */; };
+		91324B3F1B809982006E0903 /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91324B3E1B809982006E0903 /* Travel.swift */; };
+		91324B411B809983006E0903 /* ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91324B401B809983006E0903 /* ID.swift */; };
+		91324B511B809F75006E0903 /* CSLayerStealingBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91324B441B809F75006E0903 /* CSLayerStealingBlurView.m */; };
+		91324B521B809F75006E0903 /* CSNativeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91324B461B809F75006E0903 /* CSNativeBlurView.m */; };
+		91324B531B809F75006E0903 /* CSNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91324B491B809F75006E0903 /* CSNotificationView.m */; };
+		91324B541B809F75006E0903 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 91324B4B1B809F75006E0903 /* checkmark.png */; };
+		91324B551B809F75006E0903 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91324B4C1B809F75006E0903 /* checkmark@2x.png */; };
+		91324B561B809F75006E0903 /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91324B4D1B809F75006E0903 /* checkmark@3x.png */; };
+		91324B571B809F75006E0903 /* exclamationMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 91324B4E1B809F75006E0903 /* exclamationMark.png */; };
+		91324B581B809F75006E0903 /* exclamationMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91324B4F1B809F75006E0903 /* exclamationMark@2x.png */; };
+		91324B591B809F75006E0903 /* exclamationMark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91324B501B809F75006E0903 /* exclamationMark@3x.png */; };
+		914FAEA01B7F673E008316B5 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 914FAE9F1B7F673E008316B5 /* UIView+ITTAdditions.m */; };
+		914FAEA51B801734008316B5 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FAEA41B801734008316B5 /* UIImageExtension.swift */; };
+		91F616F81B803C3200C971DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F616F71B803C3200C971DE /* Images.xcassets */; };
+		91F617001B803F6000C971DE /* RecentlyTravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F616FE1B803F6000C971DE /* RecentlyTravelCell.swift */; };
+		91F617011B803F6000C971DE /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F616FF1B803F6000C971DE /* TravelCell.swift */; };
+		91F617081B803F9000C971DE /* TravelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617071B803F9000C971DE /* TravelListViewController.swift */; };
+		91F6170D1B803FF500C971DE /* LighSwipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F6170A1B803FF500C971DE /* LighSwipeCell.swift */; };
+		91F6170E1B803FF500C971DE /* SwipeEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F6170C1B803FF500C971DE /* SwipeEditCell.m */; };
+		91F617121B80402900C971DE /* LighIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F617101B80402900C971DE /* LighIndicatorView.m */; };
+		91F617131B80402900C971DE /* LighIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F617111B80402900C971DE /* LighIndicatorView.xib */; };
+		91F617161B8040A400C971DE /* UserAvatarSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617141B8040A400C971DE /* UserAvatarSliceView.swift */; };
+		91F617171B8040A400C971DE /* UserAvatarSliceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F617151B8040A400C971DE /* UserAvatarSliceView.xib */; };
+		91F617191B80414D00C971DE /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617181B80414D00C971DE /* CircularImageView.swift */; };
+		91F6171B1B80440E00C971DE /* EditTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F6171A1B80440E00C971DE /* EditTravelViewController.swift */; };
+		91F6171D1B8055B400C971DE /* LighHorizontalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F6171C1B8055B300C971DE /* LighHorizontalLineView.swift */; };
+		91F6171F1B8055C000C971DE /* LighAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F6171E1B8055C000C971DE /* LighAlertView.swift */; };
+		91F617261B8056B400C971DE /* LighBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617211B8056B400C971DE /* LighBaseTableViewController.swift */; };
+		91F617271B8056B400C971DE /* LighBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617221B8056B400C971DE /* LighBaseViewController.swift */; };
+		91F617281B8056B400C971DE /* LighNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617231B8056B400C971DE /* LighNavigationBarView.swift */; };
+		91F617291B8056B400C971DE /* LighNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F617241B8056B400C971DE /* LighNavigationBarView.xib */; };
+		91F6172A1B8056B400C971DE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617251B8056B400C971DE /* UIViewControllerExtension.swift */; };
 		91FC6B031B7D80600086E6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A811B7D80600086E6AA /* AppDelegate.swift */; };
 		91FC6B041B7D80600086E6AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A821B7D80600086E6AA /* LaunchScreen.xib */; };
 		91FC6B051B7D80600086E6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A841B7D80600086E6AA /* Main.storyboard */; };
 		91FC6B061B7D80600086E6AA /* App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A871B7D80600086E6AA /* App.xcdatamodeld */; };
 		91FC6B071B7D80600086E6AA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A891B7D80600086E6AA /* CoreDataManager.swift */; };
 		91FC6B081B7D80600086E6AA /* NSManagedObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A8A1B7D80600086E6AA /* NSManagedObjectExtension.swift */; };
-		91FC6B091B7D80600086E6AA /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A8B1B7D80600086E6AA /* Travel.swift */; };
-		91FC6B0A1B7D80600086E6AA /* LighBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A8F1B7D80600086E6AA /* LighBaseTableViewController.swift */; };
-		91FC6B0B1B7D80600086E6AA /* LighBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A901B7D80600086E6AA /* LighBaseViewController.swift */; };
-		91FC6B0C1B7D80600086E6AA /* LighNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A911B7D80600086E6AA /* LighNavigationBarView.swift */; };
-		91FC6B0D1B7D80600086E6AA /* LighNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A921B7D80600086E6AA /* LighNavigationBarView.xib */; };
-		91FC6B0E1B7D80600086E6AA /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A931B7D80600086E6AA /* UIViewControllerExtension.swift */; };
 		91FC6B0F1B7D80600086E6AA /* NSObectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A951B7D80600086E6AA /* NSObectExtension.swift */; };
 		91FC6B101B7D80600086E6AA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A961B7D80600086E6AA /* StringExtension.swift */; };
 		91FC6B111B7D80600086E6AA /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A971B7D80600086E6AA /* UIButtonExtension.swift */; };
@@ -61,15 +82,9 @@
 		91FC6B131B7D80600086E6AA /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A991B7D80600086E6AA /* UIDeviceExtension.swift */; };
 		91FC6B141B7D80600086E6AA /* UIimageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A9A1B7D80600086E6AA /* UIimageViewExtension.swift */; };
 		91FC6B151B7D80600086E6AA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A9B1B7D80600086E6AA /* UIViewExtension.swift */; };
-		91FC6B161B7D80600086E6AA /* LefVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A9D1B7D80600086E6AA /* LefVC.swift */; };
-		91FC6B171B7D80600086E6AA /* LefVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A9E1B7D80600086E6AA /* LefVC.xib */; };
-		91FC6B181B7D80600086E6AA /* LighAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AA11B7D80600086E6AA /* LighAlertView.swift */; };
-		91FC6B191B7D80600086E6AA /* LighIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AA41B7D80600086E6AA /* LighIndicatorView.m */; };
-		91FC6B1A1B7D80600086E6AA /* LighIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6AA51B7D80600086E6AA /* LighIndicatorView.xib */; };
 		91FC6B1B1B7D80600086E6AA /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AA71B7D80600086E6AA /* AlamofireExtensions.swift */; };
 		91FC6B1C1B7D80600086E6AA /* LighHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AA81B7D80600086E6AA /* LighHttpRequestManager.swift */; };
 		91FC6B1D1B7D80600086E6AA /* LighHTTPResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AA91B7D80600086E6AA /* LighHTTPResult.swift */; };
-		91FC6B1E1B7D80600086E6AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6AAA1B7D80600086E6AA /* Images.xcassets */; };
 		91FC6B1F1B7D80600086E6AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6AAB1B7D80600086E6AA /* Info.plist */; };
 		91FC6B201B7D80600086E6AA /* JSONModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AAD1B7D80600086E6AA /* JSONModelParser.swift */; };
 		91FC6B211B7D80600086E6AA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AAE1B7D80600086E6AA /* Order.swift */; };
@@ -111,7 +126,6 @@
 		91FC6B451B7D80600086E6AA /* SSWDirectionalPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AFD1B7D80600086E6AA /* SSWDirectionalPanGestureRecognizer.m */; };
 		91FC6B461B7D80600086E6AA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FC6AFF1B7D80600086E6AA /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		91FC6B471B7D80600086E6AA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6B011B7D80600086E6AA /* SwiftyJSON.swift */; };
-		91FC6B481B7D80600086E6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6B021B7D80600086E6AA /* ViewController.swift */; };
 		91FC6B531B7DCAB10086E6AA /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6B521B7DCAB10086E6AA /* UITableView+FDTemplateLayoutCell.m */; };
 		91FC6B551B7DD0B80086E6AA /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6B541B7DD0B80086E6AA /* DemoCell.swift */; };
 		91FC6B8B1B7DF08B0086E6AA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6B7D1B7DF08B0086E6AA /* Constraint.swift */; };
@@ -157,7 +171,6 @@
 		9103C9291B19BF8500AB48F2 /* BagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9103C92E1B19BF8500AB48F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9103C92F1B19BF8500AB48F2 /* swift_libTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_libTests.swift; sourceTree = "<group>"; };
-		910A234D1B7DFE33004612B3 /* LighSwipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighSwipeCell.swift; sourceTree = "<group>"; };
 		910A23501B7E3F01004612B3 /* 00启动页_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页_640.png"; sourceTree = "<group>"; };
 		910A23511B7E3F01004612B3 /* 00启动页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页.png"; sourceTree = "<group>"; };
 		910A23521B7E3F01004612B3 /* 00启动页960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00启动页960.png"; sourceTree = "<group>"; };
@@ -187,23 +200,51 @@
 		910A236A1B7E3F01004612B3 /* 06个人中心-7版本检测.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-7版本检测.png"; sourceTree = "<group>"; };
 		910A236B1B7E3F01004612B3 /* 06个人中心-8已是新版本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-8已是新版本.png"; sourceTree = "<group>"; };
 		910A236C1B7E3F01004612B3 /* 06个人中心-9退出登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06个人中心-9退出登录.png"; sourceTree = "<group>"; };
-		910A238A1B7E4E70004612B3 /* TravelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelListViewController.swift; sourceTree = "<group>"; };
-		910A238D1B7E4EC9004612B3 /* RecentlyTravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyTravelCell.swift; sourceTree = "<group>"; };
-		910A238F1B7E56D3004612B3 /* TravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
-		910A23911B7E8990004612B3 /* SwipeEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeEditCell.h; sourceTree = "<group>"; };
-		910A23921B7E8990004612B3 /* SwipeEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeEditCell.m; sourceTree = "<group>"; };
+		91324B3E1B809982006E0903 /* Travel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
+		91324B401B809983006E0903 /* ID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ID.swift; sourceTree = "<group>"; };
+		91324B431B809F75006E0903 /* CSLayerStealingBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLayerStealingBlurView.h; sourceTree = "<group>"; };
+		91324B441B809F75006E0903 /* CSLayerStealingBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLayerStealingBlurView.m; sourceTree = "<group>"; };
+		91324B451B809F75006E0903 /* CSNativeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNativeBlurView.h; sourceTree = "<group>"; };
+		91324B461B809F75006E0903 /* CSNativeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNativeBlurView.m; sourceTree = "<group>"; };
+		91324B471B809F75006E0903 /* CSNotificationView_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNotificationView_Private.h; sourceTree = "<group>"; };
+		91324B481B809F75006E0903 /* CSNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNotificationView.h; sourceTree = "<group>"; };
+		91324B491B809F75006E0903 /* CSNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNotificationView.m; sourceTree = "<group>"; };
+		91324B4B1B809F75006E0903 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		91324B4C1B809F75006E0903 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		91324B4D1B809F75006E0903 /* checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@3x.png"; sourceTree = "<group>"; };
+		91324B4E1B809F75006E0903 /* exclamationMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamationMark.png; sourceTree = "<group>"; };
+		91324B4F1B809F75006E0903 /* exclamationMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamationMark@2x.png"; sourceTree = "<group>"; };
+		91324B501B809F75006E0903 /* exclamationMark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamationMark@3x.png"; sourceTree = "<group>"; };
+		914FAE9E1B7F673E008316B5 /* UIView+ITTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ITTAdditions.h"; sourceTree = "<group>"; };
+		914FAE9F1B7F673E008316B5 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
+		914FAEA41B801734008316B5 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		91F616F71B803C3200C971DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91F616FE1B803F6000C971DE /* RecentlyTravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyTravelCell.swift; sourceTree = "<group>"; };
+		91F616FF1B803F6000C971DE /* TravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
+		91F617071B803F9000C971DE /* TravelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelListViewController.swift; sourceTree = "<group>"; };
+		91F6170A1B803FF500C971DE /* LighSwipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighSwipeCell.swift; sourceTree = "<group>"; };
+		91F6170B1B803FF500C971DE /* SwipeEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeEditCell.h; sourceTree = "<group>"; };
+		91F6170C1B803FF500C971DE /* SwipeEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeEditCell.m; sourceTree = "<group>"; };
+		91F6170F1B80402900C971DE /* LighIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LighIndicatorView.h; sourceTree = "<group>"; };
+		91F617101B80402900C971DE /* LighIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LighIndicatorView.m; sourceTree = "<group>"; };
+		91F617111B80402900C971DE /* LighIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LighIndicatorView.xib; sourceTree = "<group>"; };
+		91F617141B8040A400C971DE /* UserAvatarSliceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAvatarSliceView.swift; sourceTree = "<group>"; };
+		91F617151B8040A400C971DE /* UserAvatarSliceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAvatarSliceView.xib; sourceTree = "<group>"; };
+		91F617181B80414D00C971DE /* CircularImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		91F6171A1B80440E00C971DE /* EditTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTravelViewController.swift; sourceTree = "<group>"; };
+		91F6171C1B8055B300C971DE /* LighHorizontalLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighHorizontalLineView.swift; sourceTree = "<group>"; };
+		91F6171E1B8055C000C971DE /* LighAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighAlertView.swift; sourceTree = "<group>"; };
+		91F617211B8056B400C971DE /* LighBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighBaseTableViewController.swift; sourceTree = "<group>"; };
+		91F617221B8056B400C971DE /* LighBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighBaseViewController.swift; sourceTree = "<group>"; };
+		91F617231B8056B400C971DE /* LighNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighNavigationBarView.swift; sourceTree = "<group>"; };
+		91F617241B8056B400C971DE /* LighNavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LighNavigationBarView.xib; sourceTree = "<group>"; };
+		91F617251B8056B400C971DE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		91FC6A811B7D80600086E6AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91FC6A831B7D80600086E6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91FC6A851B7D80600086E6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91FC6A881B7D80600086E6AA /* App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App.xcdatamodel; sourceTree = "<group>"; };
 		91FC6A891B7D80600086E6AA /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		91FC6A8A1B7D80600086E6AA /* NSManagedObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectExtension.swift; sourceTree = "<group>"; };
-		91FC6A8B1B7D80600086E6AA /* Travel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
-		91FC6A8F1B7D80600086E6AA /* LighBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighBaseTableViewController.swift; sourceTree = "<group>"; };
-		91FC6A901B7D80600086E6AA /* LighBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighBaseViewController.swift; sourceTree = "<group>"; };
-		91FC6A911B7D80600086E6AA /* LighNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighNavigationBarView.swift; sourceTree = "<group>"; };
-		91FC6A921B7D80600086E6AA /* LighNavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LighNavigationBarView.xib; sourceTree = "<group>"; };
-		91FC6A931B7D80600086E6AA /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		91FC6A951B7D80600086E6AA /* NSObectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObectExtension.swift; sourceTree = "<group>"; };
 		91FC6A961B7D80600086E6AA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		91FC6A971B7D80600086E6AA /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
@@ -211,16 +252,9 @@
 		91FC6A991B7D80600086E6AA /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		91FC6A9A1B7D80600086E6AA /* UIimageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIimageViewExtension.swift; sourceTree = "<group>"; };
 		91FC6A9B1B7D80600086E6AA /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		91FC6A9D1B7D80600086E6AA /* LefVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LefVC.swift; sourceTree = "<group>"; };
-		91FC6A9E1B7D80600086E6AA /* LefVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LefVC.xib; sourceTree = "<group>"; };
-		91FC6AA11B7D80600086E6AA /* LighAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighAlertView.swift; sourceTree = "<group>"; };
-		91FC6AA31B7D80600086E6AA /* LighIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LighIndicatorView.h; sourceTree = "<group>"; };
-		91FC6AA41B7D80600086E6AA /* LighIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LighIndicatorView.m; sourceTree = "<group>"; };
-		91FC6AA51B7D80600086E6AA /* LighIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LighIndicatorView.xib; sourceTree = "<group>"; };
 		91FC6AA71B7D80600086E6AA /* AlamofireExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
 		91FC6AA81B7D80600086E6AA /* LighHttpRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighHttpRequestManager.swift; sourceTree = "<group>"; };
 		91FC6AA91B7D80600086E6AA /* LighHTTPResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighHTTPResult.swift; sourceTree = "<group>"; };
-		91FC6AAA1B7D80600086E6AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91FC6AAB1B7D80600086E6AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91FC6AAD1B7D80600086E6AA /* JSONModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONModelParser.swift; sourceTree = "<group>"; };
 		91FC6AAE1B7D80600086E6AA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
@@ -297,7 +331,6 @@
 		91FC6AFF1B7D80600086E6AA /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
 		91FC6B001B7D80600086E6AA /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		91FC6B011B7D80600086E6AA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		91FC6B021B7D80600086E6AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91FC6B511B7DCAB10086E6AA /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		91FC6B521B7DCAB10086E6AA /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		91FC6B541B7DD0B80086E6AA /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
@@ -372,17 +405,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		910A234C1B7DFE0E004612B3 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				910A23911B7E8990004612B3 /* SwipeEditCell.h */,
-				910A23921B7E8990004612B3 /* SwipeEditCell.m */,
-				910A234D1B7DFE33004612B3 /* LighSwipeCell.swift */,
-			);
-			name = Cells;
-			path = Bag/General/Cells;
-			sourceTree = SOURCE_ROOT;
-		};
 		910A234F1B7E3EF6004612B3 /* ImageUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,23 +441,124 @@
 			path = ImageUI;
 			sourceTree = "<group>";
 		};
-		910A238C1B7E4EAD004612B3 /* Cells */ = {
+		91324B3D1B80996C006E0903 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				910A238D1B7E4EC9004612B3 /* RecentlyTravelCell.swift */,
-				910A238F1B7E56D3004612B3 /* TravelCell.swift */,
+				91324B401B809983006E0903 /* ID.swift */,
+				91324B3E1B809982006E0903 /* Travel.swift */,
 			);
-			path = Cells;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91324B421B809F64006E0903 /* CSNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				91324B431B809F75006E0903 /* CSLayerStealingBlurView.h */,
+				91324B441B809F75006E0903 /* CSLayerStealingBlurView.m */,
+				91324B451B809F75006E0903 /* CSNativeBlurView.h */,
+				91324B461B809F75006E0903 /* CSNativeBlurView.m */,
+				91324B471B809F75006E0903 /* CSNotificationView_Private.h */,
+				91324B481B809F75006E0903 /* CSNotificationView.h */,
+				91324B491B809F75006E0903 /* CSNotificationView.m */,
+				91324B4A1B809F75006E0903 /* Resources */,
+			);
+			path = CSNotificationView;
+			sourceTree = "<group>";
+		};
+		91324B4A1B809F75006E0903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91324B4B1B809F75006E0903 /* checkmark.png */,
+				91324B4C1B809F75006E0903 /* checkmark@2x.png */,
+				91324B4D1B809F75006E0903 /* checkmark@3x.png */,
+				91324B4E1B809F75006E0903 /* exclamationMark.png */,
+				91324B4F1B809F75006E0903 /* exclamationMark@2x.png */,
+				91324B501B809F75006E0903 /* exclamationMark@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		914FAE9D1B7F672A008316B5 /* Objec-CKit */ = {
+			isa = PBXGroup;
+			children = (
+				914FAE9E1B7F673E008316B5 /* UIView+ITTAdditions.h */,
+				914FAE9F1B7F673E008316B5 /* UIView+ITTAdditions.m */,
+			);
+			path = "Objec-CKit";
+			sourceTree = "<group>";
+		};
+		91F616F41B8039A500C971DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F6170F1B80402900C971DE /* LighIndicatorView.h */,
+				91F617101B80402900C971DE /* LighIndicatorView.m */,
+				91F617111B80402900C971DE /* LighIndicatorView.xib */,
+				91F6171E1B8055C000C971DE /* LighAlertView.swift */,
+				91F617181B80414D00C971DE /* CircularImageView.swift */,
+				91F6171C1B8055B300C971DE /* LighHorizontalLineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91F616FB1B803EE600C971DE /* AppUI */ = {
+			isa = PBXGroup;
+			children = (
+				91F617071B803F9000C971DE /* TravelListViewController.swift */,
+				91F6171A1B80440E00C971DE /* EditTravelViewController.swift */,
+				91F616FD1B803F0300C971DE /* Cell */,
+				91F616FC1B803EF900C971DE /* View */,
+			);
+			path = AppUI;
+			sourceTree = "<group>";
+		};
+		91F616FC1B803EF900C971DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F617141B8040A400C971DE /* UserAvatarSliceView.swift */,
+				91F617151B8040A400C971DE /* UserAvatarSliceView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91F616FD1B803F0300C971DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				91F616FE1B803F6000C971DE /* RecentlyTravelCell.swift */,
+				91F616FF1B803F6000C971DE /* TravelCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		91F617091B803FF500C971DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				91F6170A1B803FF500C971DE /* LighSwipeCell.swift */,
+				91F6170B1B803FF500C971DE /* SwipeEditCell.h */,
+				91F6170C1B803FF500C971DE /* SwipeEditCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		91F617201B80569F00C971DE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				91F617211B8056B400C971DE /* LighBaseTableViewController.swift */,
+				91F617221B8056B400C971DE /* LighBaseViewController.swift */,
+				91F617231B8056B400C971DE /* LighNavigationBarView.swift */,
+				91F617241B8056B400C971DE /* LighNavigationBarView.xib */,
+				91F617251B8056B400C971DE /* UIViewControllerExtension.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		91FC6A801B7D80600086E6AA /* Bag */ = {
 			isa = PBXGroup;
 			children = (
+				91F616F71B803C3200C971DE /* Images.xcassets */,
 				910A234F1B7E3EF6004612B3 /* ImageUI */,
 				91FC6A811B7D80600086E6AA /* AppDelegate.swift */,
 				91FC6A821B7D80600086E6AA /* LaunchScreen.xib */,
 				91FC6A841B7D80600086E6AA /* Main.storyboard */,
-				91FC6B021B7D80600086E6AA /* ViewController.swift */,
 				91FC6A861B7D80600086E6AA /* CoreData */,
 				91FC6A8C1B7D80600086E6AA /* General */,
 				91FC6AA61B7D80600086E6AA /* HTTP */,
@@ -444,7 +567,6 @@
 				91FC6AB21B7D80600086E6AA /* project-Bridging-Header.h */,
 				91FC6AB31B7D80600086E6AA /* project.pch */,
 				91FC6AAB1B7D80600086E6AA /* Info.plist */,
-				91FC6AAA1B7D80600086E6AA /* Images.xcassets */,
 				91FC6AB41B7D80600086E6AA /* Vendors */,
 			);
 			path = Bag;
@@ -456,7 +578,6 @@
 				91FC6A871B7D80600086E6AA /* App.xcdatamodeld */,
 				91FC6A891B7D80600086E6AA /* CoreDataManager.swift */,
 				91FC6A8A1B7D80600086E6AA /* NSManagedObjectExtension.swift */,
-				91FC6A8B1B7D80600086E6AA /* Travel.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -464,38 +585,19 @@
 		91FC6A8C1B7D80600086E6AA /* General */ = {
 			isa = PBXGroup;
 			children = (
-				91FC6A8D1B7D80600086E6AA /* Classes */,
+				91324B3D1B80996C006E0903 /* Model */,
+				91F616FB1B803EE600C971DE /* AppUI */,
 				91FC6A941B7D80600086E6AA /* Extensions */,
 				91FC6A9C1B7D80600086E6AA /* UI */,
-				91FC6A9F1B7D80600086E6AA /* Views */,
 			);
 			path = General;
-			sourceTree = "<group>";
-		};
-		91FC6A8D1B7D80600086E6AA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				91FC6A8E1B7D80600086E6AA /* LighVC */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		91FC6A8E1B7D80600086E6AA /* LighVC */ = {
-			isa = PBXGroup;
-			children = (
-				91FC6A8F1B7D80600086E6AA /* LighBaseTableViewController.swift */,
-				91FC6A901B7D80600086E6AA /* LighBaseViewController.swift */,
-				91FC6A911B7D80600086E6AA /* LighNavigationBarView.swift */,
-				91FC6A921B7D80600086E6AA /* LighNavigationBarView.xib */,
-				91FC6A931B7D80600086E6AA /* UIViewControllerExtension.swift */,
-			);
-			path = LighVC;
 			sourceTree = "<group>";
 		};
 		91FC6A941B7D80600086E6AA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				91FC6A951B7D80600086E6AA /* NSObectExtension.swift */,
+				914FAEA41B801734008316B5 /* UIImageExtension.swift */,
 				91FC6A961B7D80600086E6AA /* StringExtension.swift */,
 				91FC6A971B7D80600086E6AA /* UIButtonExtension.swift */,
 				91FC6A981B7D80600086E6AA /* UIColorExtension.swift */,
@@ -509,41 +611,12 @@
 		91FC6A9C1B7D80600086E6AA /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				910A238C1B7E4EAD004612B3 /* Cells */,
-				91FC6A9D1B7D80600086E6AA /* LefVC.swift */,
-				91FC6A9E1B7D80600086E6AA /* LefVC.xib */,
+				91F617201B80569F00C971DE /* VC */,
+				91F617091B803FF500C971DE /* Cell */,
+				91F616F41B8039A500C971DE /* View */,
 				91FC6B541B7DD0B80086E6AA /* DemoCell.swift */,
-				910A238A1B7E4E70004612B3 /* TravelListViewController.swift */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		91FC6A9F1B7D80600086E6AA /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				910A234C1B7DFE0E004612B3 /* Cells */,
-				91FC6AA01B7D80600086E6AA /* AlertView */,
-				91FC6AA21B7D80600086E6AA /* Loading */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		91FC6AA01B7D80600086E6AA /* AlertView */ = {
-			isa = PBXGroup;
-			children = (
-				91FC6AA11B7D80600086E6AA /* LighAlertView.swift */,
-			);
-			path = AlertView;
-			sourceTree = "<group>";
-		};
-		91FC6AA21B7D80600086E6AA /* Loading */ = {
-			isa = PBXGroup;
-			children = (
-				91FC6AA31B7D80600086E6AA /* LighIndicatorView.h */,
-				91FC6AA41B7D80600086E6AA /* LighIndicatorView.m */,
-				91FC6AA51B7D80600086E6AA /* LighIndicatorView.xib */,
-			);
-			path = Loading;
 			sourceTree = "<group>";
 		};
 		91FC6AA61B7D80600086E6AA /* HTTP */ = {
@@ -570,6 +643,8 @@
 		91FC6AB41B7D80600086E6AA /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				91324B421B809F64006E0903 /* CSNotificationView */,
+				914FAE9D1B7F672A008316B5 /* Objec-CKit */,
 				91FC6B7C1B7DF07F0086E6AA /* SnapKit */,
 				91FC6B501B7DCAB10086E6AA /* FDTemplateLayoutCell */,
 				91FC6AB51B7D80600086E6AA /* Alamofire */,
@@ -829,9 +904,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91324B591B809F75006E0903 /* exclamationMark@3x.png in Resources */,
 				910A236E1B7E3F01004612B3 /* 00启动页.png in Resources */,
 				910A23741B7E3F01004612B3 /* 02添加行程-1.png in Resources */,
-				91FC6B1A1B7D80600086E6AA /* LighIndicatorView.xib in Resources */,
 				910A23751B7E3F01004612B3 /* 02添加行程-2添加物品.png in Resources */,
 				910A23881B7E3F01004612B3 /* 06个人中心-8已是新版本.png in Resources */,
 				910A236D1B7E3F01004612B3 /* 00启动页_640.png in Resources */,
@@ -844,13 +919,14 @@
 				910A237F1B7E3F01004612B3 /* 05行程详情-4交通.png in Resources */,
 				910A23701B7E3F01004612B3 /* 01主页-1默认页.png in Resources */,
 				910A23841B7E3F01004612B3 /* 06个人中心-4登录.png in Resources */,
+				91F616F81B803C3200C971DE /* Images.xcassets in Resources */,
 				910A237C1B7E3F01004612B3 /* 05行程详情-1物品.png in Resources */,
-				91FC6B0D1B7D80600086E6AA /* LighNavigationBarView.xib in Resources */,
 				91FC6B041B7D80600086E6AA /* LaunchScreen.xib in Resources */,
 				910A23731B7E3F01004612B3 /* 01主页-4加载.gif in Resources */,
-				91FC6B1E1B7D80600086E6AA /* Images.xcassets in Resources */,
 				910A23801B7E3F01004612B3 /* 05行程详情-5下拉信息.png in Resources */,
+				91F617291B8056B400C971DE /* LighNavigationBarView.xib in Resources */,
 				910A23851B7E3F01004612B3 /* 06个人中心-5意见反馈.png in Resources */,
+				91F617171B8040A400C971DE /* UserAvatarSliceView.xib in Resources */,
 				910A23771B7E3F01004612B3 /* 02添加行程-4调整分类.png in Resources */,
 				910A236F1B7E3F01004612B3 /* 00启动页960.png in Resources */,
 				910A23721B7E3F01004612B3 /* 01主页-3滑动.png in Resources */,
@@ -858,14 +934,19 @@
 				910A237B1B7E3F01004612B3 /* 04添加住宿-1.png in Resources */,
 				910A237A1B7E3F01004612B3 /* 03添加交通信息-2火车.png in Resources */,
 				910A23831B7E3F01004612B3 /* 06个人中心-3编辑名称.png in Resources */,
+				91324B581B809F75006E0903 /* exclamationMark@2x.png in Resources */,
 				910A23711B7E3F01004612B3 /* 01主页-2滑动.png in Resources */,
+				91F617131B80402900C971DE /* LighIndicatorView.xib in Resources */,
+				91324B571B809F75006E0903 /* exclamationMark.png in Resources */,
 				910A23761B7E3F01004612B3 /* 02添加行程-3添加物品.png in Resources */,
 				910A23891B7E3F01004612B3 /* 06个人中心-9退出登录.png in Resources */,
-				91FC6B171B7D80600086E6AA /* LefVC.xib in Resources */,
 				91FC6B051B7D80600086E6AA /* Main.storyboard in Resources */,
+				91324B551B809F75006E0903 /* checkmark@2x.png in Resources */,
 				910A23871B7E3F01004612B3 /* 06个人中心-7版本检测.png in Resources */,
 				910A23791B7E3F01004612B3 /* 03添加交通信息-1飞机.png in Resources */,
 				91FC6B1F1B7D80600086E6AA /* Info.plist in Resources */,
+				91324B541B809F75006E0903 /* checkmark.png in Resources */,
+				91324B561B809F75006E0903 /* checkmark@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,30 +968,32 @@
 				91FC6B231B7D80600086E6AA /* User.swift in Sources */,
 				91FC6B071B7D80600086E6AA /* CoreDataManager.swift in Sources */,
 				91FC6B8C1B7DF08B0086E6AA /* ConstraintAttributes.swift in Sources */,
+				91324B521B809F75006E0903 /* CSNativeBlurView.m in Sources */,
 				91FC6B901B7DF08B0086E6AA /* ConstraintRelation.swift in Sources */,
 				91FC6B961B7DF08B0086E6AA /* View+SnapKit.swift in Sources */,
 				91FC6B471B7D80600086E6AA /* SwiftyJSON.swift in Sources */,
 				91FC6B031B7D80600086E6AA /* AppDelegate.swift in Sources */,
 				91FC6B451B7D80600086E6AA /* SSWDirectionalPanGestureRecognizer.m in Sources */,
-				91FC6B0E1B7D80600086E6AA /* UIViewControllerExtension.swift in Sources */,
+				91F617191B80414D00C971DE /* CircularImageView.swift in Sources */,
 				91FC6B3F1B7D80600086E6AA /* UIImageView+HighlightedWebCache.m in Sources */,
 				91FC6B221B7D80600086E6AA /* reflection.swift in Sources */,
 				91FC6B331B7D80600086E6AA /* NSData+ImageContentType.m in Sources */,
+				91F617161B8040A400C971DE /* UserAvatarSliceView.swift in Sources */,
 				91FC6B8D1B7DF08B0086E6AA /* ConstraintDescription.swift in Sources */,
 				91FC6B2E1B7D80600086E6AA /* SCLAlertViewResponder.m in Sources */,
 				91FC6B2D1B7D80600086E6AA /* SCLAlertView.m in Sources */,
 				91FC6B281B7D80600086E6AA /* AnimatedMenuButton.swift in Sources */,
-				91FC6B0C1B7D80600086E6AA /* LighNavigationBarView.swift in Sources */,
+				91F6172A1B8056B400C971DE /* UIViewControllerExtension.swift in Sources */,
 				91FC6B2C1B7D80600086E6AA /* ExampleDrawerVisualStateManager.swift in Sources */,
-				91FC6B0A1B7D80600086E6AA /* LighBaseTableViewController.swift in Sources */,
 				91FC6B351B7D80600086E6AA /* SDWebImageCompat.m in Sources */,
+				91324B3F1B809982006E0903 /* Travel.swift in Sources */,
 				91FC6B391B7D80600086E6AA /* SDWebImageManager.m in Sources */,
 				91FC6B911B7DF08B0086E6AA /* Debugging.swift in Sources */,
 				91FC6B1C1B7D80600086E6AA /* LighHttpRequestManager.swift in Sources */,
-				910A23931B7E8990004612B3 /* SwipeEditCell.m in Sources */,
 				91FC6B341B7D80600086E6AA /* SDImageCache.m in Sources */,
+				91F617011B803F6000C971DE /* TravelCell.swift in Sources */,
 				91FC6B8F1B7DF08B0086E6AA /* ConstraintMaker.swift in Sources */,
-				910A234E1B7DFE33004612B3 /* LighSwipeCell.swift in Sources */,
+				91324B411B809983006E0903 /* ID.swift in Sources */,
 				91FC6B551B7DD0B80086E6AA /* DemoCell.swift in Sources */,
 				91FC6B421B7D80600086E6AA /* SloppySwiper.m in Sources */,
 				91FC6B921B7DF08B0086E6AA /* EdgeInsets.swift in Sources */,
@@ -919,23 +1002,30 @@
 				91FC6B971B7DF08B0086E6AA /* ViewController+SnapKit.swift in Sources */,
 				91FC6B8B1B7DF08B0086E6AA /* Constraint.swift in Sources */,
 				91FC6B151B7D80600086E6AA /* UIViewExtension.swift in Sources */,
+				91F6171F1B8055C000C971DE /* LighAlertView.swift in Sources */,
+				91324B531B809F75006E0903 /* CSNotificationView.m in Sources */,
 				91FC6B311B7D80600086E6AA /* UIImage+ImageEffects.m in Sources */,
 				91FC6B371B7D80600086E6AA /* SDWebImageDownloader.m in Sources */,
+				91F617281B8056B400C971DE /* LighNavigationBarView.swift in Sources */,
+				91F617261B8056B400C971DE /* LighBaseTableViewController.swift in Sources */,
+				91324B511B809F75006E0903 /* CSLayerStealingBlurView.m in Sources */,
 				91FC6B251B7D80600086E6AA /* Alamofire-SwiftyJSON.swift in Sources */,
 				91FC6B2F1B7D80600086E6AA /* SCLAlertViewStyleKit.m in Sources */,
 				91FC6B121B7D80600086E6AA /* UIColorExtension.swift in Sources */,
+				91F6171B1B80440E00C971DE /* EditTravelViewController.swift in Sources */,
 				91FC6B3D1B7D80600086E6AA /* UIImage+MultiFormat.m in Sources */,
+				91F6170E1B803FF500C971DE /* SwipeEditCell.m in Sources */,
 				91FC6B1B1B7D80600086E6AA /* AlamofireExtensions.swift in Sources */,
 				91FC6B3E1B7D80600086E6AA /* UIImage+WebP.m in Sources */,
-				910A238E1B7E4EC9004612B3 /* RecentlyTravelCell.swift in Sources */,
+				91F617271B8056B400C971DE /* LighBaseViewController.swift in Sources */,
 				91FC6B291B7D80600086E6AA /* DrawerBarButtonItem.swift in Sources */,
+				91F617001B803F6000C971DE /* RecentlyTravelCell.swift in Sources */,
+				914FAEA51B801734008316B5 /* UIImageExtension.swift in Sources */,
 				91FC6B2B1B7D80600086E6AA /* DrawerVisualState.swift in Sources */,
 				91FC6B301B7D80600086E6AA /* SCLButton.m in Sources */,
 				91FC6B061B7D80600086E6AA /* App.xcdatamodeld in Sources */,
-				91FC6B0B1B7D80600086E6AA /* LighBaseViewController.swift in Sources */,
 				91FC6B271B7D80600086E6AA /* GradientProgressView.m in Sources */,
 				91FC6B1D1B7D80600086E6AA /* LighHTTPResult.swift in Sources */,
-				91FC6B091B7D80600086E6AA /* Travel.swift in Sources */,
 				91FC6B411B7D80600086E6AA /* UIView+WebCacheOperation.m in Sources */,
 				91FC6B531B7DCAB10086E6AA /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				91FC6B3A1B7D80600086E6AA /* SDWebImagePrefetcher.m in Sources */,
@@ -943,25 +1033,24 @@
 				91FC6B951B7DF08B0086E6AA /* SnapKit.swift in Sources */,
 				91FC6B0F1B7D80600086E6AA /* NSObectExtension.swift in Sources */,
 				91FC6B941B7DF08B0086E6AA /* LayoutConstraint.swift in Sources */,
-				91FC6B181B7D80600086E6AA /* LighAlertView.swift in Sources */,
+				91F617121B80402900C971DE /* LighIndicatorView.m in Sources */,
 				91FC6B3C1B7D80600086E6AA /* UIImage+GIF.m in Sources */,
 				91FC6B131B7D80600086E6AA /* UIDeviceExtension.swift in Sources */,
-				910A238B1B7E4E70004612B3 /* TravelListViewController.swift in Sources */,
+				91F6171D1B8055B400C971DE /* LighHorizontalLineView.swift in Sources */,
 				91FC6B211B7D80600086E6AA /* Order.swift in Sources */,
 				91FC6B101B7D80600086E6AA /* StringExtension.swift in Sources */,
 				91FC6B321B7D80600086E6AA /* MKAnnotationView+WebCache.m in Sources */,
 				91FC6B2A1B7D80600086E6AA /* DrawerController.swift in Sources */,
+				914FAEA01B7F673E008316B5 /* UIView+ITTAdditions.m in Sources */,
 				91FC6B381B7D80600086E6AA /* SDWebImageDownloaderOperation.m in Sources */,
-				91FC6B191B7D80600086E6AA /* LighIndicatorView.m in Sources */,
 				91FC6B081B7D80600086E6AA /* NSManagedObjectExtension.swift in Sources */,
 				91FC6B441B7D80600086E6AA /* SSWAnimator.m in Sources */,
 				91FC6B431B7D80600086E6AA /* SloppySwiperNavigationController.m in Sources */,
 				91FC6B8E1B7DF08B0086E6AA /* ConstraintItem.swift in Sources */,
-				91FC6B481B7D80600086E6AA /* ViewController.swift in Sources */,
-				910A23901B7E56D3004612B3 /* TravelCell.swift in Sources */,
 				91FC6B401B7D80600086E6AA /* UIImageView+WebCache.m in Sources */,
+				91F617081B803F9000C971DE /* TravelListViewController.swift in Sources */,
+				91F6170D1B803FF500C971DE /* LighSwipeCell.swift in Sources */,
 				91FC6B261B7D80600086E6AA /* AMTumblrHud.m in Sources */,
-				91FC6B161B7D80600086E6AA /* LefVC.swift in Sources */,
 				91FC6B201B7D80600086E6AA /* JSONModelParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

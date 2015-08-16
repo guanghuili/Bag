@@ -108,6 +108,12 @@ extension String
         return range.location != NSNotFound;
     }
     
+    
+    func isEqualToString(string aString:String) ->Bool {
+        
+        var selfString:NSString = self.asNSString()
+        return selfString.isEqual(aString)
+    }
 
     /***
      通过下标的方式 获取指定范围的字符
