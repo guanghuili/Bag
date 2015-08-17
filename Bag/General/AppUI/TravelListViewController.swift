@@ -13,6 +13,7 @@ import UIKit
 **/
 class TravelListViewController: LighBaseTableViewController {
     
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,7 @@ class TravelListViewController: LighBaseTableViewController {
         
         self.navigationBarView.setRightBarItemStyle(ImageStyle.AddTravelImageStyle)
         
+        NSLog("%@",Travel.executeQuery()!)
 
 
     }
@@ -41,7 +43,7 @@ class TravelListViewController: LighBaseTableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if(segue.identifier!.isEqualToString(string: "EditTravel")) {
-            NSLog("aa")
+        
         }
         
     }

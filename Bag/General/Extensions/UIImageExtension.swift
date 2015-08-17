@@ -12,7 +12,7 @@ import UIKit
 
 enum ImageStyle : String {
     
-    case AddTravelImageStyle = "icon_big_add"
+    case AddTravelImageStyle = "icon_menu_add"
     case SaveImageStyle = "icon_big_save"
 }
 
