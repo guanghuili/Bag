@@ -61,7 +61,7 @@ class LighAlertView: NSObject
     
     class func showLighAlertView(title:String,msg:String,style:LightAlertViewStyle,doneButtonTitle:String,buttonClick:(Int)->Void)
     {
-        showLighAlertView(title, msg: msg, style: style, buttonTitles: [doneButtonTitle], buttonClick:buttonClick);
+        showLighAlertView(title, msg: msg, style: style, buttonTitles: ["取消",doneButtonTitle], buttonClick:buttonClick);
     }
     
     

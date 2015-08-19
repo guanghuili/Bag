@@ -23,9 +23,10 @@ typedef void(^CSVoidBlock)();
 @interface CSNotificationView : UIView
 
 #pragma mark + quick presentation
-
 + (void)ShowNotificationViewStyleSuccessInWindow:(NSString *) message;
++ (void)ShowNotificationViewStyleSuccessInWindow:(NSString *) message completed:(CSVoidBlock) completedBlock;
 + (void)ShowNotificationViewStyleErrorInWindow:(NSString *) message;
++ (void)ShowNotificationViewStyleErrorInWindow:(NSString *) message completed:(CSVoidBlock) completedBlock;;
 
 
 + (void)showInKeyWindowTintColor:(UIColor*)tintColor

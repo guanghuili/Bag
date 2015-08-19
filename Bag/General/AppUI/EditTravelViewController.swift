@@ -20,6 +20,8 @@ class EditTravelViewController: LighBaseViewController {
     @IBOutlet weak var travelDateTextField: UITextField!//行程日期
     @IBOutlet weak var travelDestinationTextField: UITextField!//行程目的地
     
+    var date:NSDate?
+    
 
     var travel:Travel? //编辑的行程
 
@@ -29,7 +31,22 @@ class EditTravelViewController: LighBaseViewController {
 
         self.navigationBarView.setRightBarItemStyle(ImageStyle.SaveImageStyle)
         
+        showTravel()
     
+    }
+    
+    
+    /**显示行程信息**/
+    private func showTravel() {
+    
+        
+        if let travelInfo = self.travel
+        {
+                self.date = travelInfo.date
+                travelNameTextField.text = travelInfo.name
+                travelDateTextField.text = travelInfo.date.toString(format: DateFormat.Custom("yyyy-MM-dd"))
+                travelDestinationTextField.text = travelInfo.destination
+        }
     }
 
     //============================ events =================================//
@@ -42,7 +59,7 @@ class EditTravelViewController: LighBaseViewController {
             
             self.travelDateTextField.text = date.toString(format: DateFormat.Custom("yyyy-MM-dd"))
 
-        
+            self.date = date
         })
 
         
@@ -82,18 +99,25 @@ class EditTravelViewController: LighBaseViewController {
         
         if let tempTravel = self.travel
         {
+            self.date = self.travel!.date
         }else
         {
             self.travel = Travel.newObject() as? Travel
+            self.travel!.tid = ID.makeNextT_ID()
         }
         
         self.travel!.name = travelNameTextField.text
         self.travel!.destination = travelDestinationTextField.text
-        self.travel!.tid = ID.makeNextT_ID()
-        self.travel!.date = travelDateTextField.text
+        self.travel!.date = self.date!
         self.travel!.save()
 
-      
+        
+        CSNotificationView.ShowNotificationViewStyleErrorInWindow("哇哈 我保存好了~~", completed: { () -> Void in
+           
+            self.navigationController?.popViewControllerAnimated(true);
+        });
+        
+        
     }
     
     

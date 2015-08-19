@@ -79,13 +79,17 @@ extension NSManagedObject {
     /***
     **创建一个NSFetchedResultsController sortDescriptorMap 是必须要指定的
     */
-    class func fetchedResultsController(predicate:NSPredicate? = nil,sortDescriptorMap:[String:Bool],delegate:NSFetchedResultsControllerDelegate? = nil) -> NSFetchedResultsController {
+    class func fetchedResultsController(predicate:NSPredicate? = nil,sortDescriptorMap:[String:Bool]?=nil,delegate:NSFetchedResultsControllerDelegate? = nil) -> NSFetchedResultsController {
     
     
        var request = self.fetchRequest(predicate: predicate, sortDescriptorMap: sortDescriptorMap)
+        request.fetchBatchSize = 20
         
-       var fetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: self.managedObjectContext(), sectionNameKeyPath: nil, cacheName: self.className())
+       var fetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: self.managedObjectContext(), sectionNameKeyPath:nil, cacheName: nil)
         fetchedResultsController.delegate = delegate
+        
+        //这个必须调用
+        fetchedResultsController.performFetch(nil)
     
         return fetchedResultsController;
     }
@@ -100,7 +104,7 @@ extension NSManagedObject {
     **/
     class func newObject() -> AnyObject?
     {
-      return  NSEntityDescription.insertNewObjectForEntityForName(self.className(), inManagedObjectContext: self.managedObjectContext())
+      return  NSEntityDescription.entityForName(self.className(), inManagedObjectContext: self.managedObjectContext())
     }
     
 
@@ -118,6 +122,13 @@ extension NSManagedObject {
         return newObject
     }
     
+    
+    func deleteObject() {
+        
+        self.managedObjectContext!.deleteObject(self)
+        CoreDataManager.sharedCoreDataManager().managedObjectContext!.save(nil)
+
+    }
 
     /**
         保存managedObjectContext中 为持久化的对象
@@ -133,6 +144,7 @@ extension NSManagedObject {
     根据 predicate 和 sortDescriptorMap创建 fetchRequest
     **/
     class func fetchRequest(predicate:NSPredicate? = nil,sortDescriptorMap:[String:Bool]? = nil) -> NSFetchRequest {
+        
         
         var request = NSFetchRequest()
         request.entity = NSEntityDescription.entityForName(self.className(), inManagedObjectContext: self.managedObjectContext())

@@ -78,6 +78,8 @@
     
 }
 
+
+
 + (void)showInKeyWindowWithStyle:(CSNotificationViewStyle)style
            message:(NSString *)message
 {
@@ -93,14 +95,34 @@
 
 +(void)ShowNotificationViewStyleSuccessInWindow:(NSString *)message
 {
-    [self showInKeyWindowWithStyle:CSNotificationViewStyleSuccess
-                                     message:message];
+    [self ShowNotificationViewStyleSuccessInWindow:message completed:nil];
 }
+
++(void)ShowNotificationViewStyleSuccessInWindow:(NSString *)message completed:(CSVoidBlock)completedBlock
+{
+    [self showInKeyWindowWithStyle:CSNotificationViewStyleSuccess
+                           message:message];
+    dispatch_time_t time=dispatch_time(DISPATCH_TIME_NOW, kCSNotificationViewDefaultShowDuration*NSEC_PER_SEC);
+    dispatch_after(time, dispatch_get_main_queue(),completedBlock);
+}
+
++(void)ShowNotificationViewStyleErrorInWindow:(NSString *)message completed:(CSVoidBlock)completedBlock
+{
+    
+    [self showInKeyWindowWithStyle:CSNotificationViewStyleError
+                           message:message];
+    
+   
+    dispatch_time_t time=dispatch_time(DISPATCH_TIME_NOW, kCSNotificationViewDefaultShowDuration*NSEC_PER_SEC);
+    dispatch_after(time, dispatch_get_main_queue(),completedBlock);
+    
+}
+
 
 +(void)ShowNotificationViewStyleErrorInWindow:(NSString *)message
 {
-    [self showInKeyWindowWithStyle:CSNotificationViewStyleError
-                       message:message];}
+    [self ShowNotificationViewStyleErrorInWindow:message completed:nil];
+}
 
 #pragma mark + creators
 

@@ -80,6 +80,14 @@
 		91A4B3521B817F9F00C1ABAF /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4B3381B817F9F00C1ABAF /* CVShape.swift */; };
 		91A4B3541B818EE800C1ABAF /* CalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4B3531B818EE800C1ABAF /* CalendarPicker.swift */; };
 		91A4B3561B818EF500C1ABAF /* CalendarPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A4B3551B818EF500C1ABAF /* CalendarPicker.xib */; };
+		91B5BE9E1B8486280021072C /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BE9B1B8486280021072C /* UITableViewCellExtension.swift */; };
+		91B5BE9F1B8486280021072C /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BE9C1B8486280021072C /* UITableViewExtension.swift */; };
+		91B5BEA01B8486280021072C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BE9D1B8486280021072C /* UIViewControllerExtension.swift */; };
+		91B5BEAC1B8487890021072C /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BEA21B8487890021072C /* SCLAlertView.m */; };
+		91B5BEAD1B8487890021072C /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BEA41B8487890021072C /* SCLAlertViewResponder.m */; };
+		91B5BEAE1B8487890021072C /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BEA61B8487890021072C /* SCLAlertViewStyleKit.m */; };
+		91B5BEAF1B8487890021072C /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BEA81B8487890021072C /* SCLButton.m */; };
+		91B5BEB01B8487890021072C /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BEAB1B8487890021072C /* UIImage+ImageEffects.m */; };
 		91F616F81B803C3200C971DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F616F71B803C3200C971DE /* Images.xcassets */; };
 		91F617001B803F6000C971DE /* RecentlyTravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F616FE1B803F6000C971DE /* RecentlyTravelCell.swift */; };
 		91F617011B803F6000C971DE /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F616FF1B803F6000C971DE /* TravelCell.swift */; };
@@ -98,7 +106,6 @@
 		91F617271B8056B400C971DE /* LighBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617221B8056B400C971DE /* LighBaseViewController.swift */; };
 		91F617281B8056B400C971DE /* LighNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617231B8056B400C971DE /* LighNavigationBarView.swift */; };
 		91F617291B8056B400C971DE /* LighNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F617241B8056B400C971DE /* LighNavigationBarView.xib */; };
-		91F6172A1B8056B400C971DE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F617251B8056B400C971DE /* UIViewControllerExtension.swift */; };
 		91FC6B031B7D80600086E6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6A811B7D80600086E6AA /* AppDelegate.swift */; };
 		91FC6B041B7D80600086E6AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A821B7D80600086E6AA /* LaunchScreen.xib */; };
 		91FC6B051B7D80600086E6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6A841B7D80600086E6AA /* Main.storyboard */; };
@@ -129,11 +136,6 @@
 		91FC6B2A1B7D80600086E6AA /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AC41B7D80600086E6AA /* DrawerController.swift */; };
 		91FC6B2B1B7D80600086E6AA /* DrawerVisualState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AC51B7D80600086E6AA /* DrawerVisualState.swift */; };
 		91FC6B2C1B7D80600086E6AA /* ExampleDrawerVisualStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AC61B7D80600086E6AA /* ExampleDrawerVisualStateManager.swift */; };
-		91FC6B2D1B7D80600086E6AA /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AC91B7D80600086E6AA /* SCLAlertView.m */; };
-		91FC6B2E1B7D80600086E6AA /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6ACB1B7D80600086E6AA /* SCLAlertViewResponder.m */; };
-		91FC6B2F1B7D80600086E6AA /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6ACD1B7D80600086E6AA /* SCLAlertViewStyleKit.m */; };
-		91FC6B301B7D80600086E6AA /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6ACF1B7D80600086E6AA /* SCLButton.m */; };
-		91FC6B311B7D80600086E6AA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AD21B7D80600086E6AA /* UIImage+ImageEffects.m */; };
 		91FC6B321B7D80600086E6AA /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AD51B7D80600086E6AA /* MKAnnotationView+WebCache.m */; };
 		91FC6B331B7D80600086E6AA /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AD71B7D80600086E6AA /* NSData+ImageContentType.m */; };
 		91FC6B341B7D80600086E6AA /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC6AD91B7D80600086E6AA /* SDImageCache.m */; };
@@ -278,6 +280,20 @@
 		91A4B3381B817F9F00C1ABAF /* CVShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVShape.swift; sourceTree = "<group>"; };
 		91A4B3531B818EE800C1ABAF /* CalendarPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPicker.swift; sourceTree = "<group>"; };
 		91A4B3551B818EF500C1ABAF /* CalendarPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarPicker.xib; sourceTree = "<group>"; };
+		91B5BE9B1B8486280021072C /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		91B5BE9C1B8486280021072C /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		91B5BE9D1B8486280021072C /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		91B5BEA11B8487890021072C /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		91B5BEA21B8487890021072C /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		91B5BEA31B8487890021072C /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		91B5BEA41B8487890021072C /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		91B5BEA51B8487890021072C /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		91B5BEA61B8487890021072C /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		91B5BEA71B8487890021072C /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		91B5BEA81B8487890021072C /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		91B5BEA91B8487890021072C /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		91B5BEAA1B8487890021072C /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		91B5BEAB1B8487890021072C /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		91F616F71B803C3200C971DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91F616FE1B803F6000C971DE /* RecentlyTravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyTravelCell.swift; sourceTree = "<group>"; };
 		91F616FF1B803F6000C971DE /* TravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
@@ -298,7 +314,6 @@
 		91F617221B8056B400C971DE /* LighBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighBaseViewController.swift; sourceTree = "<group>"; };
 		91F617231B8056B400C971DE /* LighNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighNavigationBarView.swift; sourceTree = "<group>"; };
 		91F617241B8056B400C971DE /* LighNavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LighNavigationBarView.xib; sourceTree = "<group>"; };
-		91F617251B8056B400C971DE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		91FC6A811B7D80600086E6AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91FC6A831B7D80600086E6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91FC6A851B7D80600086E6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -336,17 +351,6 @@
 		91FC6AC41B7D80600086E6AA /* DrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerController.swift; sourceTree = "<group>"; };
 		91FC6AC51B7D80600086E6AA /* DrawerVisualState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerVisualState.swift; sourceTree = "<group>"; };
 		91FC6AC61B7D80600086E6AA /* ExampleDrawerVisualStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleDrawerVisualStateManager.swift; sourceTree = "<group>"; };
-		91FC6AC81B7D80600086E6AA /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
-		91FC6AC91B7D80600086E6AA /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
-		91FC6ACA1B7D80600086E6AA /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
-		91FC6ACB1B7D80600086E6AA /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
-		91FC6ACC1B7D80600086E6AA /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
-		91FC6ACD1B7D80600086E6AA /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
-		91FC6ACE1B7D80600086E6AA /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
-		91FC6ACF1B7D80600086E6AA /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
-		91FC6AD01B7D80600086E6AA /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
-		91FC6AD11B7D80600086E6AA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		91FC6AD21B7D80600086E6AA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		91FC6AD41B7D80600086E6AA /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		91FC6AD51B7D80600086E6AA /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		91FC6AD61B7D80600086E6AA /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -650,7 +654,6 @@
 				91F617221B8056B400C971DE /* LighBaseViewController.swift */,
 				91F617231B8056B400C971DE /* LighNavigationBarView.swift */,
 				91F617241B8056B400C971DE /* LighNavigationBarView.xib */,
-				91F617251B8056B400C971DE /* UIViewControllerExtension.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -703,6 +706,9 @@
 				91FC6A951B7D80600086E6AA /* NSObectExtension.swift */,
 				914FAEA41B801734008316B5 /* UIImageExtension.swift */,
 				91FC6A961B7D80600086E6AA /* StringExtension.swift */,
+				91B5BE9B1B8486280021072C /* UITableViewCellExtension.swift */,
+				91B5BE9C1B8486280021072C /* UITableViewExtension.swift */,
+				91B5BE9D1B8486280021072C /* UIViewControllerExtension.swift */,
 				91FC6A971B7D80600086E6AA /* UIButtonExtension.swift */,
 				91FC6A981B7D80600086E6AA /* UIColorExtension.swift */,
 				91FC6A991B7D80600086E6AA /* UIDeviceExtension.swift */,
@@ -817,17 +823,17 @@
 		91FC6AC71B7D80600086E6AA /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				91FC6AC81B7D80600086E6AA /* SCLAlertView.h */,
-				91FC6AC91B7D80600086E6AA /* SCLAlertView.m */,
-				91FC6ACA1B7D80600086E6AA /* SCLAlertViewResponder.h */,
-				91FC6ACB1B7D80600086E6AA /* SCLAlertViewResponder.m */,
-				91FC6ACC1B7D80600086E6AA /* SCLAlertViewStyleKit.h */,
-				91FC6ACD1B7D80600086E6AA /* SCLAlertViewStyleKit.m */,
-				91FC6ACE1B7D80600086E6AA /* SCLButton.h */,
-				91FC6ACF1B7D80600086E6AA /* SCLButton.m */,
-				91FC6AD01B7D80600086E6AA /* SCLMacros.h */,
-				91FC6AD11B7D80600086E6AA /* UIImage+ImageEffects.h */,
-				91FC6AD21B7D80600086E6AA /* UIImage+ImageEffects.m */,
+				91B5BEA11B8487890021072C /* SCLAlertView.h */,
+				91B5BEA21B8487890021072C /* SCLAlertView.m */,
+				91B5BEA31B8487890021072C /* SCLAlertViewResponder.h */,
+				91B5BEA41B8487890021072C /* SCLAlertViewResponder.m */,
+				91B5BEA51B8487890021072C /* SCLAlertViewStyleKit.h */,
+				91B5BEA61B8487890021072C /* SCLAlertViewStyleKit.m */,
+				91B5BEA71B8487890021072C /* SCLButton.h */,
+				91B5BEA81B8487890021072C /* SCLButton.m */,
+				91B5BEA91B8487890021072C /* SCLMacros.h */,
+				91B5BEAA1B8487890021072C /* UIImage+ImageEffects.h */,
+				91B5BEAB1B8487890021072C /* UIImage+ImageEffects.m */,
 			);
 			path = SCLAlertView;
 			sourceTree = "<group>";
@@ -1076,6 +1082,7 @@
 				91FC6B231B7D80600086E6AA /* User.swift in Sources */,
 				91FC6B071B7D80600086E6AA /* CoreDataManager.swift in Sources */,
 				91FC6B8C1B7DF08B0086E6AA /* ConstraintAttributes.swift in Sources */,
+				91B5BE9E1B8486280021072C /* UITableViewCellExtension.swift in Sources */,
 				91324B521B809F75006E0903 /* CSNativeBlurView.m in Sources */,
 				91FC6B901B7DF08B0086E6AA /* ConstraintRelation.swift in Sources */,
 				91FC6B961B7DF08B0086E6AA /* View+SnapKit.swift in Sources */,
@@ -1086,17 +1093,17 @@
 				91F617191B80414D00C971DE /* CircularImageView.swift in Sources */,
 				91FC6B3F1B7D80600086E6AA /* UIImageView+HighlightedWebCache.m in Sources */,
 				91FC6B221B7D80600086E6AA /* reflection.swift in Sources */,
+				91B5BEB01B8487890021072C /* UIImage+ImageEffects.m in Sources */,
 				91FC6B331B7D80600086E6AA /* NSData+ImageContentType.m in Sources */,
 				91A4B34E1B817F9F00C1ABAF /* CVRange.swift in Sources */,
+				91B5BEAF1B8487890021072C /* SCLButton.m in Sources */,
 				9152341A1B81CAE400F45BF7 /* IDExtionsion.swift in Sources */,
 				91F617161B8040A400C971DE /* UserAvatarSliceView.swift in Sources */,
 				91FC6B8D1B7DF08B0086E6AA /* ConstraintDescription.swift in Sources */,
 				91A4B3491B817F9F00C1ABAF /* CVCalendarViewPresentationMode.swift in Sources */,
-				91FC6B2E1B7D80600086E6AA /* SCLAlertViewResponder.m in Sources */,
-				91FC6B2D1B7D80600086E6AA /* SCLAlertView.m in Sources */,
 				91A4B3461B817F9F00C1ABAF /* CVCalendarViewAppearance.swift in Sources */,
+				91B5BEAE1B8487890021072C /* SCLAlertViewStyleKit.m in Sources */,
 				91FC6B281B7D80600086E6AA /* AnimatedMenuButton.swift in Sources */,
-				91F6172A1B8056B400C971DE /* UIViewControllerExtension.swift in Sources */,
 				91FC6B2C1B7D80600086E6AA /* ExampleDrawerVisualStateManager.swift in Sources */,
 				91FC6B351B7D80600086E6AA /* SDWebImageCompat.m in Sources */,
 				91FC6B391B7D80600086E6AA /* SDWebImageManager.m in Sources */,
@@ -1114,6 +1121,7 @@
 				91FC6B421B7D80600086E6AA /* SloppySwiper.m in Sources */,
 				91FC6B921B7DF08B0086E6AA /* EdgeInsets.swift in Sources */,
 				91FC6B111B7D80600086E6AA /* UIButtonExtension.swift in Sources */,
+				91B5BEAD1B8487890021072C /* SCLAlertViewResponder.m in Sources */,
 				91A4B3511B817F9F00C1ABAF /* CVSet.swift in Sources */,
 				91FC6B361B7D80600086E6AA /* SDWebImageDecoder.m in Sources */,
 				91A4B34D1B817F9F00C1ABAF /* CVDate.swift in Sources */,
@@ -1122,14 +1130,12 @@
 				91FC6B151B7D80600086E6AA /* UIViewExtension.swift in Sources */,
 				91F6171F1B8055C000C971DE /* LighAlertView.swift in Sources */,
 				91324B531B809F75006E0903 /* CSNotificationView.m in Sources */,
-				91FC6B311B7D80600086E6AA /* UIImage+ImageEffects.m in Sources */,
 				91FC6B371B7D80600086E6AA /* SDWebImageDownloader.m in Sources */,
 				91F617281B8056B400C971DE /* LighNavigationBarView.swift in Sources */,
 				91A4B34C1B817F9F00C1ABAF /* CVCalendarWeekView.swift in Sources */,
 				91F617261B8056B400C971DE /* LighBaseTableViewController.swift in Sources */,
 				91324B511B809F75006E0903 /* CSLayerStealingBlurView.m in Sources */,
 				91FC6B251B7D80600086E6AA /* Alamofire-SwiftyJSON.swift in Sources */,
-				91FC6B2F1B7D80600086E6AA /* SCLAlertViewStyleKit.m in Sources */,
 				91FC6B121B7D80600086E6AA /* UIColorExtension.swift in Sources */,
 				91F6171B1B80440E00C971DE /* EditTravelViewController.swift in Sources */,
 				91A4B33D1B817F9F00C1ABAF /* CVCalendarManager.swift in Sources */,
@@ -1146,8 +1152,8 @@
 				91F617001B803F6000C971DE /* RecentlyTravelCell.swift in Sources */,
 				914FAEA51B801734008316B5 /* UIImageExtension.swift in Sources */,
 				91A4B3441B817F9F00C1ABAF /* CVCalendarViewAnimator.swift in Sources */,
+				91B5BE9F1B8486280021072C /* UITableViewExtension.swift in Sources */,
 				91FC6B2B1B7D80600086E6AA /* DrawerVisualState.swift in Sources */,
-				91FC6B301B7D80600086E6AA /* SCLButton.m in Sources */,
 				91FC6B061B7D80600086E6AA /* App.xcdatamodeld in Sources */,
 				9152341C1B81E85500F45BF7 /* Travel.swift in Sources */,
 				91FC6B271B7D80600086E6AA /* GradientProgressView.m in Sources */,
@@ -1160,7 +1166,9 @@
 				91FC6B141B7D80600086E6AA /* UIimageViewExtension.swift in Sources */,
 				91A4B3411B817F9F00C1ABAF /* CVCalendarMonthView.swift in Sources */,
 				91A4B3451B817F9F00C1ABAF /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				91B5BEAC1B8487890021072C /* SCLAlertView.m in Sources */,
 				91FC6B951B7DF08B0086E6AA /* SnapKit.swift in Sources */,
+				91B5BEA01B8486280021072C /* UIViewControllerExtension.swift in Sources */,
 				91FC6B0F1B7D80600086E6AA /* NSObectExtension.swift in Sources */,
 				91A4B3431B817F9F00C1ABAF /* CVCalendarView.swift in Sources */,
 				91FC6B941B7DF08B0086E6AA /* LayoutConstraint.swift in Sources */,

@@ -97,8 +97,8 @@ NSTimer *durationTimer;
         self.usingNewWindow = NO;
         self.canAddObservers = YES;
         self.keyboardIsVisible = NO;
-        self.hideAnimationType = SlideOutToCenter;
-        self.showAnimationType = SlideInFromCenter;
+        self.hideAnimationType = FadeOut;
+        self.showAnimationType = FadeIn;
         self.backgroundType = Shadow;
         
         // Font

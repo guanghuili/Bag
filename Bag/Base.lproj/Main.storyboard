@@ -148,6 +148,15 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WzF-w4-NnG">
                                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="72"/>
                                                                     <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSc-I9-jgJ">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="72"/>
+                                                                            <state key="normal">
+                                                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                            </state>
+                                                                            <connections>
+                                                                                <segue destination="msf-3m-sbX" kind="push" identifier="EditTravel" id="j9n-KB-yvD"/>
+                                                                            </connections>
+                                                                        </button>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_big_edit" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-Cw-e3G">
                                                                             <rect key="frame" x="15" y="26" width="20" height="20"/>
                                                                             <constraints>
@@ -167,6 +176,15 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLf-dU-8EE">
                                                                     <rect key="frame" x="0.0" y="72" width="50" height="72"/>
                                                                     <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCZ-yj-fQS">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="72"/>
+                                                                            <state key="normal">
+                                                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                            </state>
+                                                                            <connections>
+                                                                                <action selector="onDelTravelButtonTapped:" destination="3BE-jo-GL6" eventType="touchUpInside" id="Osp-iE-avZ"/>
+                                                                            </connections>
+                                                                        </button>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_big_delete" translatesAutoresizingMaskIntoConstraints="NO" id="jl0-xV-vAt">
                                                                             <rect key="frame" x="15" y="26" width="20" height="20"/>
                                                                             <constraints>
@@ -300,8 +318,17 @@
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
+                                                    <outlet property="articleNameLabel" destination="uaF-nB-9iI" id="ohw-tR-xVf"/>
+                                                    <outlet property="dateLabel" destination="jTT-IE-cvK" id="HAB-Ix-GRG"/>
+                                                    <outlet property="dayLabel" destination="iLX-0w-mQT" id="kdF-y1-59Q"/>
+                                                    <outlet property="hotelsLabel" destination="Olz-fk-lUu" id="90b-Si-43q"/>
+                                                    <outlet property="nameLabel" destination="qZE-V2-I2s" id="0SP-bO-Ilz"/>
                                                     <outlet property="swipeContentView" destination="Idf-8O-len" id="rFa-fq-wLI"/>
                                                     <outlet property="swipeRightEditView" destination="Eyz-oq-lkM" id="zPe-j2-03d"/>
+                                                    <outlet property="trafficLabel" destination="O9Y-5H-RjH" id="fsb-NB-d3e"/>
+                                                    <outlet property="weatherIconImageView" destination="Sko-t8-GMV" id="vdn-B4-mWK"/>
+                                                    <outlet property="weatherLabel" destination="qML-mV-iaX" id="AOe-tL-Ses"/>
+                                                    <outlet property="weekLabel" destination="xsK-dL-tGs" id="tcq-c7-L0T"/>
                                                     <segue destination="msf-3m-sbX" kind="push" identifier="EditTravel" id="vl9-ua-EFL"/>
                                                 </connections>
                                             </tableViewCell>
@@ -320,6 +347,15 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F39-fP-Fh7">
                                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="70"/>
                                                                     <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vln-1w-7yh">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="70"/>
+                                                                            <state key="normal">
+                                                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                            </state>
+                                                                            <connections>
+                                                                                <segue destination="msf-3m-sbX" kind="push" identifier="EditTravel" id="Ja6-1F-KNW"/>
+                                                                            </connections>
+                                                                        </button>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_big_edit" translatesAutoresizingMaskIntoConstraints="NO" id="en2-i0-Ybq">
                                                                             <rect key="frame" x="20" y="25" width="20" height="20"/>
                                                                             <constraints>
@@ -338,6 +374,15 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yNJ-7U-s1P">
                                                                     <rect key="frame" x="60" y="0.0" width="60" height="70"/>
                                                                     <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktk-75-nDf">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="70"/>
+                                                                            <state key="normal">
+                                                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                            </state>
+                                                                            <connections>
+                                                                                <action selector="onDelTravelButtonTapped:" destination="3BE-jo-GL6" eventType="touchUpInside" id="4DD-Yd-Gn0"/>
+                                                                            </connections>
+                                                                        </button>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_big_delete" translatesAutoresizingMaskIntoConstraints="NO" id="RaQ-Bc-kGc">
                                                                             <rect key="frame" x="20" y="25" width="20" height="20"/>
                                                                             <constraints>
@@ -486,12 +531,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fs5-d7-JD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-977" y="265"/>
+            <point key="canvasLocation" x="-1108" y="271"/>
         </scene>
         <!--添加/编辑行程-->
         <scene sceneID="829-hz-RlP">
             <objects>
-                <viewController title="添加/编辑行程" id="msf-3m-sbX" customClass="EditTravelViewController" customModule="Bag" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditTravelViewController" title="添加/编辑行程" id="msf-3m-sbX" customClass="EditTravelViewController" customModule="Bag" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zNE-Zn-a5G"/>
                         <viewControllerLayoutGuide type="bottom" id="ciB-bc-jjx"/>
