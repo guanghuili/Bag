@@ -102,8 +102,11 @@
 {
     [self showInKeyWindowWithStyle:CSNotificationViewStyleSuccess
                            message:message];
-    dispatch_time_t time=dispatch_time(DISPATCH_TIME_NOW, kCSNotificationViewDefaultShowDuration*NSEC_PER_SEC);
-    dispatch_after(time, dispatch_get_main_queue(),completedBlock);
+    if (completedBlock)
+    {
+        dispatch_time_t time=dispatch_time(DISPATCH_TIME_NOW, kCSNotificationViewDefaultShowDuration*NSEC_PER_SEC);
+        dispatch_after(time, dispatch_get_main_queue(),completedBlock);
+    }
 }
 
 +(void)ShowNotificationViewStyleErrorInWindow:(NSString *)message completed:(CSVoidBlock)completedBlock
@@ -112,9 +115,13 @@
     [self showInKeyWindowWithStyle:CSNotificationViewStyleError
                            message:message];
     
+    if (completedBlock)
+    {
+        dispatch_time_t time=dispatch_time(DISPATCH_TIME_NOW, kCSNotificationViewDefaultShowDuration*NSEC_PER_SEC);
+        dispatch_after(time, dispatch_get_main_queue(),completedBlock);
+    }
    
-    dispatch_time_t time=dispatch_time(DISPATCH_TIME_NOW, kCSNotificationViewDefaultShowDuration*NSEC_PER_SEC);
-    dispatch_after(time, dispatch_get_main_queue(),completedBlock);
+    
     
 }
 

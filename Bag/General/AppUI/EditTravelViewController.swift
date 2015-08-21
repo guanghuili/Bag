@@ -76,6 +76,7 @@ class EditTravelViewController: LighBaseViewController {
     //点击保存按钮
     override func onRightNavigationBarItemTaped() {
         
+   
         
         if(travelNameTextField.text.isEmpty)
         {
@@ -102,7 +103,7 @@ class EditTravelViewController: LighBaseViewController {
             self.date = self.travel!.date
         }else
         {
-            self.travel = Travel.newObject() as? Travel
+            self.travel = Travel.insertObject() as? Travel
             self.travel!.tid = ID.makeNextT_ID()
         }
         

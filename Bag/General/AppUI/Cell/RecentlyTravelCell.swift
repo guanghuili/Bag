@@ -35,11 +35,10 @@ class RecentlyTravelCell: SwipeEditCell {
     
     
     override func configCell(data:AnyObject) {
-        
+     
         var travel:Travel = data as! Travel
-        nameLabel.text = travel.name
+      //  nameLabel.text = travel.name
 
-        
         
     }
 

@@ -104,7 +104,7 @@ extension NSManagedObject {
     **/
     class func newObject() -> AnyObject?
     {
-      return  NSEntityDescription.entityForName(self.className(), inManagedObjectContext: self.managedObjectContext())
+      return  NSEntityDescription.insertNewObjectForEntityForName(self.className(), inManagedObjectContext: self.managedObjectContext())
     }
     
 

@@ -29,6 +29,13 @@ class CalendarPicker: UIView {
     }
     
     
+    
+    class func showPicker(inView:UIView,dateBlock:DateBlock? = nil){
+        
+        var picker = CalendarPicker.viewFromXIB() as! CalendarPicker
+        picker.showPicker(inView, dateBlock: dateBlock)
+    }
+    
     func showPicker(inView:UIView,dateBlock:DateBlock? = nil)
     {
         self.dateBlock = dateBlock

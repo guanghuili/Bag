@@ -55,7 +55,10 @@ class TravelListViewController: LighBaseTableViewController,NSFetchedResultsCont
     
     
     override func onRightNavigationBarItemTaped() {
+        
+        NSLog("%@", self.navigationController!)
         self.navigationController?.pushViewController(EditTravelViewController.viewController(), animated: true);
+        
     }
     
     //删除行程

@@ -72,7 +72,7 @@ class LighBaseTableViewController: LighBaseViewController ,UITableViewDelegate,U
     **/
     func configureCell(cell:UITableViewCell,withData:AnyObject)
     {
-        
+        cell.configCell(withData)
     }
     
     /***

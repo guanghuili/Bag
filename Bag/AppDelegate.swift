@@ -19,13 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,NSFetchedResultsControlle
      
         UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
      
-     
-        
-   
-        
-        NSLog("%@=====",ID.nextT_ID())
-        
-        
+    
         
         return true
     }
