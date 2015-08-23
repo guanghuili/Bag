@@ -40,11 +40,6 @@
 		911C5B341B86FE58009900F6 /* TravelInfoArticelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C5B331B86FE58009900F6 /* TravelInfoArticelsCell.swift */; };
 		9125790E1B8574CF00A13032 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125790D1B8574CF00A13032 /* ArticlesViewController.swift */; };
 		912579101B85756A00A13032 /* TrafficViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125790F1B85756A00A13032 /* TrafficViewController.swift */; };
-		912579121B859A6200A13032 /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912579111B859A6200A13032 /* Travel.swift */; };
-		912579141B859A6300A13032 /* Traffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912579131B859A6300A13032 /* Traffic.swift */; };
-		912579161B859A6300A13032 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912579151B859A6300A13032 /* Article.swift */; };
-		912579181B859A6300A13032 /* TravelArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912579171B859A6300A13032 /* TravelArticle.swift */; };
-		9125791A1B859A6300A13032 /* ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912579191B859A6300A13032 /* ID.swift */; };
 		9125791C1B85ADB000A13032 /* TravelnfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125791B1B85ADB000A13032 /* TravelnfoViewController.swift */; };
 		9125791E1B85B4BD00A13032 /* TravelArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125791D1B85B4BD00A13032 /* TravelArticlesViewController.swift */; };
 		912579201B85D60500A13032 /* LighVerticalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125791F1B85D60500A13032 /* LighVerticalLineView.swift */; };
@@ -62,6 +57,15 @@
 		914FAEA01B7F673E008316B5 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 914FAE9F1B7F673E008316B5 /* UIView+ITTAdditions.m */; };
 		914FAEA51B801734008316B5 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FAEA41B801734008316B5 /* UIImageExtension.swift */; };
 		9152341A1B81CAE400F45BF7 /* IDExtionsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915234191B81CAE400F45BF7 /* IDExtionsion.swift */; };
+		91717FCA1B885B9E008022B5 /* ArticleCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FC91B885B9E008022B5 /* ArticleCategoryView.swift */; };
+		91717FCC1B885BC1008022B5 /* ArticleCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91717FCB1B885BC1008022B5 /* ArticleCategoryView.xib */; };
+		91717FCE1B885D84008022B5 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FCD1B885D84008022B5 /* CircularView.swift */; };
+		91717FD01B88692D008022B5 /* Traffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FCF1B88692D008022B5 /* Traffic.swift */; };
+		91717FD21B88692E008022B5 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FD11B88692E008022B5 /* Article.swift */; };
+		91717FD41B88692E008022B5 /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FD31B88692E008022B5 /* Travel.swift */; };
+		91717FDA1B88692E008022B5 /* TravelArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FD91B88692E008022B5 /* TravelArticle.swift */; };
+		91717FDC1B886988008022B5 /* ArticelCateogryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FDB1B886988008022B5 /* ArticelCateogryExtension.swift */; };
+		91717FDE1B886A4F008022B5 /* ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91717FDD1B886A4F008022B5 /* ID.swift */; };
 		9191DE3A1B81C11C00FA006E /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191DE391B81C11C00FA006E /* SwiftDate.swift */; };
 		91A4B3391B817F9F00C1ABAF /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4B31F1B817F9F00C1ABAF /* CVAuxiliaryView.swift */; };
 		91A4B33A1B817F9F00C1ABAF /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4B3201B817F9F00C1ABAF /* CVCalendarContentViewController.swift */; };
@@ -91,6 +95,9 @@
 		91A4B3521B817F9F00C1ABAF /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4B3381B817F9F00C1ABAF /* CVShape.swift */; };
 		91A4B3541B818EE800C1ABAF /* CalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4B3531B818EE800C1ABAF /* CalendarPicker.swift */; };
 		91A4B3561B818EF500C1ABAF /* CalendarPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A4B3551B818EF500C1ABAF /* CalendarPicker.xib */; };
+		91B21A8A1B89BD4100668470 /* EditTravelArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B21A891B89BD4100668470 /* EditTravelArticleCell.swift */; };
+		91B21A8C1B89CDE700668470 /* ArticelCateogry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B21A8B1B89CDE700668470 /* ArticelCateogry.swift */; };
+		91B21A8E1B89D13500668470 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B21A8D1B89D13500668470 /* ArrayExtension.swift */; };
 		91B5BE9E1B8486280021072C /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BE9B1B8486280021072C /* UITableViewCellExtension.swift */; };
 		91B5BE9F1B8486280021072C /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BE9C1B8486280021072C /* UITableViewExtension.swift */; };
 		91B5BEA01B8486280021072C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5BE9D1B8486280021072C /* UIViewControllerExtension.swift */; };
@@ -246,11 +253,6 @@
 		911C5B331B86FE58009900F6 /* TravelInfoArticelsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelInfoArticelsCell.swift; sourceTree = "<group>"; };
 		9125790D1B8574CF00A13032 /* ArticlesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		9125790F1B85756A00A13032 /* TrafficViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficViewController.swift; sourceTree = "<group>"; };
-		912579111B859A6200A13032 /* Travel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
-		912579131B859A6300A13032 /* Traffic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traffic.swift; sourceTree = "<group>"; };
-		912579151B859A6300A13032 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		912579171B859A6300A13032 /* TravelArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelArticle.swift; sourceTree = "<group>"; };
-		912579191B859A6300A13032 /* ID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ID.swift; sourceTree = "<group>"; };
 		9125791B1B85ADB000A13032 /* TravelnfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelnfoViewController.swift; sourceTree = "<group>"; };
 		9125791D1B85B4BD00A13032 /* TravelArticlesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelArticlesViewController.swift; sourceTree = "<group>"; };
 		9125791F1B85D60500A13032 /* LighVerticalLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighVerticalLineView.swift; sourceTree = "<group>"; };
@@ -273,6 +275,15 @@
 		914FAE9F1B7F673E008316B5 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
 		914FAEA41B801734008316B5 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		915234191B81CAE400F45BF7 /* IDExtionsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDExtionsion.swift; sourceTree = "<group>"; };
+		91717FC91B885B9E008022B5 /* ArticleCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCategoryView.swift; sourceTree = "<group>"; };
+		91717FCB1B885BC1008022B5 /* ArticleCategoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCategoryView.xib; sourceTree = "<group>"; };
+		91717FCD1B885D84008022B5 /* CircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		91717FCF1B88692D008022B5 /* Traffic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traffic.swift; sourceTree = "<group>"; };
+		91717FD11B88692E008022B5 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		91717FD31B88692E008022B5 /* Travel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
+		91717FD91B88692E008022B5 /* TravelArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelArticle.swift; sourceTree = "<group>"; };
+		91717FDB1B886988008022B5 /* ArticelCateogryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticelCateogryExtension.swift; sourceTree = "<group>"; };
+		91717FDD1B886A4F008022B5 /* ID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ID.swift; sourceTree = "<group>"; };
 		9191DE391B81C11C00FA006E /* SwiftDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDate.swift; sourceTree = "<group>"; };
 		91A4B31F1B817F9F00C1ABAF /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVAuxiliaryView.swift; sourceTree = "<group>"; };
 		91A4B3201B817F9F00C1ABAF /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarContentViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +313,9 @@
 		91A4B3381B817F9F00C1ABAF /* CVShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVShape.swift; sourceTree = "<group>"; };
 		91A4B3531B818EE800C1ABAF /* CalendarPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPicker.swift; sourceTree = "<group>"; };
 		91A4B3551B818EF500C1ABAF /* CalendarPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarPicker.xib; sourceTree = "<group>"; };
+		91B21A891B89BD4100668470 /* EditTravelArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTravelArticleCell.swift; sourceTree = "<group>"; };
+		91B21A8B1B89CDE700668470 /* ArticelCateogry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticelCateogry.swift; sourceTree = "<group>"; };
+		91B21A8D1B89D13500668470 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		91B5BE9B1B8486280021072C /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		91B5BE9C1B8486280021072C /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		91B5BE9D1B8486280021072C /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -530,12 +544,14 @@
 		91324B3D1B80996C006E0903 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				912579111B859A6200A13032 /* Travel.swift */,
-				912579191B859A6300A13032 /* ID.swift */,
-				912579171B859A6300A13032 /* TravelArticle.swift */,
-				912579151B859A6300A13032 /* Article.swift */,
-				912579131B859A6300A13032 /* Traffic.swift */,
+				91717FD31B88692E008022B5 /* Travel.swift */,
+				91B21A8B1B89CDE700668470 /* ArticelCateogry.swift */,
+				91717FD91B88692E008022B5 /* TravelArticle.swift */,
+				91717FDD1B886A4F008022B5 /* ID.swift */,
+				91717FD11B88692E008022B5 /* Article.swift */,
+				91717FCF1B88692D008022B5 /* Traffic.swift */,
 				915234191B81CAE400F45BF7 /* IDExtionsion.swift */,
+				91717FDB1B886988008022B5 /* ArticelCateogryExtension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -626,6 +642,7 @@
 				91F617111B80402900C971DE /* LighIndicatorView.xib */,
 				91F6171E1B8055C000C971DE /* LighAlertView.swift */,
 				91F617181B80414D00C971DE /* CircularImageView.swift */,
+				91717FCD1B885D84008022B5 /* CircularView.swift */,
 				91F6171C1B8055B300C971DE /* LighHorizontalLineView.swift */,
 				9125791F1B85D60500A13032 /* LighVerticalLineView.swift */,
 			);
@@ -656,6 +673,8 @@
 				91A4B3551B818EF500C1ABAF /* CalendarPicker.xib */,
 				912579211B85DB4600A13032 /* ArticleCategorySectionView.swift */,
 				912579231B85DB7800A13032 /* ArticleCategorySectionView.xib */,
+				91717FC91B885B9E008022B5 /* ArticleCategoryView.swift */,
+				91717FCB1B885BC1008022B5 /* ArticleCategoryView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -666,6 +685,7 @@
 				91F616FE1B803F6000C971DE /* RecentlyTravelCell.swift */,
 				91F616FF1B803F6000C971DE /* TravelCell.swift */,
 				911C5B331B86FE58009900F6 /* TravelInfoArticelsCell.swift */,
+				91B21A891B89BD4100668470 /* EditTravelArticleCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -747,6 +767,7 @@
 				91FC6A991B7D80600086E6AA /* UIDeviceExtension.swift */,
 				91FC6A9A1B7D80600086E6AA /* UIimageViewExtension.swift */,
 				91FC6A9B1B7D80600086E6AA /* UIViewExtension.swift */,
+				91B21A8D1B89D13500668470 /* ArrayExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1094,6 +1115,7 @@
 				91FC6B1F1B7D80600086E6AA /* Info.plist in Resources */,
 				91324B541B809F75006E0903 /* checkmark.png in Resources */,
 				91324B561B809F75006E0903 /* checkmark@3x.png in Resources */,
+				91717FCC1B885BC1008022B5 /* ArticleCategoryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91A4B3391B817F9F00C1ABAF /* CVAuxiliaryView.swift in Sources */,
+				91717FD01B88692D008022B5 /* Traffic.swift in Sources */,
 				91FC6B3B1B7D80600086E6AA /* UIButton+WebCache.m in Sources */,
 				91FC6B231B7D80600086E6AA /* User.swift in Sources */,
 				91FC6B071B7D80600086E6AA /* CoreDataManager.swift in Sources */,
@@ -1120,13 +1143,13 @@
 				91324B521B809F75006E0903 /* CSNativeBlurView.m in Sources */,
 				91FC6B901B7DF08B0086E6AA /* ConstraintRelation.swift in Sources */,
 				91FC6B961B7DF08B0086E6AA /* View+SnapKit.swift in Sources */,
-				912579141B859A6300A13032 /* Traffic.swift in Sources */,
 				91FC6B471B7D80600086E6AA /* SwiftyJSON.swift in Sources */,
 				91FC6B031B7D80600086E6AA /* AppDelegate.swift in Sources */,
 				91A4B3471B817F9F00C1ABAF /* CVCalendarViewAppearanceDelegate.swift in Sources */,
 				91FC6B451B7D80600086E6AA /* SSWDirectionalPanGestureRecognizer.m in Sources */,
 				91F617191B80414D00C971DE /* CircularImageView.swift in Sources */,
 				91FC6B3F1B7D80600086E6AA /* UIImageView+HighlightedWebCache.m in Sources */,
+				91717FD41B88692E008022B5 /* Travel.swift in Sources */,
 				912579201B85D60500A13032 /* LighVerticalLineView.swift in Sources */,
 				91FC6B221B7D80600086E6AA /* reflection.swift in Sources */,
 				91B5BEB01B8487890021072C /* UIImage+ImageEffects.m in Sources */,
@@ -1146,7 +1169,6 @@
 				91FC6B911B7DF08B0086E6AA /* Debugging.swift in Sources */,
 				91FC6B1C1B7D80600086E6AA /* LighHttpRequestManager.swift in Sources */,
 				91FC6B341B7D80600086E6AA /* SDImageCache.m in Sources */,
-				912579121B859A6200A13032 /* Travel.swift in Sources */,
 				91F617011B803F6000C971DE /* TravelCell.swift in Sources */,
 				91A4B3501B817F9F00C1ABAF /* CVSelectionType.swift in Sources */,
 				91FC6B8F1B7DF08B0086E6AA /* ConstraintMaker.swift in Sources */,
@@ -1158,21 +1180,22 @@
 				91FC6B921B7DF08B0086E6AA /* EdgeInsets.swift in Sources */,
 				91FC6B111B7D80600086E6AA /* UIButtonExtension.swift in Sources */,
 				91B5BEAD1B8487890021072C /* SCLAlertViewResponder.m in Sources */,
+				91717FDA1B88692E008022B5 /* TravelArticle.swift in Sources */,
 				91A4B3511B817F9F00C1ABAF /* CVSet.swift in Sources */,
 				91FC6B361B7D80600086E6AA /* SDWebImageDecoder.m in Sources */,
 				91A4B34D1B817F9F00C1ABAF /* CVDate.swift in Sources */,
 				91FC6B971B7DF08B0086E6AA /* ViewController+SnapKit.swift in Sources */,
 				91FC6B8B1B7DF08B0086E6AA /* Constraint.swift in Sources */,
 				91FC6B151B7D80600086E6AA /* UIViewExtension.swift in Sources */,
-				912579161B859A6300A13032 /* Article.swift in Sources */,
 				911C5B341B86FE58009900F6 /* TravelInfoArticelsCell.swift in Sources */,
 				91F6171F1B8055C000C971DE /* LighAlertView.swift in Sources */,
 				91324B531B809F75006E0903 /* CSNotificationView.m in Sources */,
+				91717FCA1B885B9E008022B5 /* ArticleCategoryView.swift in Sources */,
 				91FC6B371B7D80600086E6AA /* SDWebImageDownloader.m in Sources */,
+				91717FCE1B885D84008022B5 /* CircularView.swift in Sources */,
 				91F617281B8056B400C971DE /* LighNavigationBarView.swift in Sources */,
 				91A4B34C1B817F9F00C1ABAF /* CVCalendarWeekView.swift in Sources */,
 				91F617261B8056B400C971DE /* LighBaseTableViewController.swift in Sources */,
-				912579181B859A6300A13032 /* TravelArticle.swift in Sources */,
 				91324B511B809F75006E0903 /* CSLayerStealingBlurView.m in Sources */,
 				91FC6B251B7D80600086E6AA /* Alamofire-SwiftyJSON.swift in Sources */,
 				91FC6B121B7D80600086E6AA /* UIColorExtension.swift in Sources */,
@@ -1183,7 +1206,9 @@
 				91A4B33C1B817F9F00C1ABAF /* CVCalendarDayViewControlCoordinator.swift in Sources */,
 				91F6170E1B803FF500C971DE /* SwipeEditCell.m in Sources */,
 				91A4B3421B817F9F00C1ABAF /* CVCalendarTouchController.swift in Sources */,
+				91717FDE1B886A4F008022B5 /* ID.swift in Sources */,
 				91FC6B1B1B7D80600086E6AA /* AlamofireExtensions.swift in Sources */,
+				91B21A8E1B89D13500668470 /* ArrayExtension.swift in Sources */,
 				91A4B33F1B817F9F00C1ABAF /* CVCalendarMenuViewDelegate.swift in Sources */,
 				9125790E1B8574CF00A13032 /* ArticlesViewController.swift in Sources */,
 				91FC6B3E1B7D80600086E6AA /* UIImage+WebP.m in Sources */,
@@ -1194,21 +1219,25 @@
 				91A4B3441B817F9F00C1ABAF /* CVCalendarViewAnimator.swift in Sources */,
 				91B5BE9F1B8486280021072C /* UITableViewExtension.swift in Sources */,
 				91FC6B2B1B7D80600086E6AA /* DrawerVisualState.swift in Sources */,
+				91B21A8A1B89BD4100668470 /* EditTravelArticleCell.swift in Sources */,
 				9125791E1B85B4BD00A13032 /* TravelArticlesViewController.swift in Sources */,
 				91FC6B061B7D80600086E6AA /* App.xcdatamodeld in Sources */,
 				91FC6B271B7D80600086E6AA /* GradientProgressView.m in Sources */,
 				91FC6B1D1B7D80600086E6AA /* LighHTTPResult.swift in Sources */,
 				91A4B3481B817F9F00C1ABAF /* CVCalendarViewDelegate.swift in Sources */,
 				91FC6B411B7D80600086E6AA /* UIView+WebCacheOperation.m in Sources */,
+				91717FDC1B886988008022B5 /* ArticelCateogryExtension.swift in Sources */,
 				91FC6B531B7DCAB10086E6AA /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				91FC6B3A1B7D80600086E6AA /* SDWebImagePrefetcher.m in Sources */,
 				912579221B85DB4600A13032 /* ArticleCategorySectionView.swift in Sources */,
+				91B21A8C1B89CDE700668470 /* ArticelCateogry.swift in Sources */,
 				91A4B33E1B817F9F00C1ABAF /* CVCalendarMenuView.swift in Sources */,
 				91FC6B141B7D80600086E6AA /* UIimageViewExtension.swift in Sources */,
 				91A4B3411B817F9F00C1ABAF /* CVCalendarMonthView.swift in Sources */,
 				91A4B3451B817F9F00C1ABAF /* CVCalendarViewAnimatorDelegate.swift in Sources */,
 				91B5BEAC1B8487890021072C /* SCLAlertView.m in Sources */,
 				91FC6B951B7DF08B0086E6AA /* SnapKit.swift in Sources */,
+				91717FD21B88692E008022B5 /* Article.swift in Sources */,
 				91B5BEA01B8486280021072C /* UIViewControllerExtension.swift in Sources */,
 				91FC6B0F1B7D80600086E6AA /* NSObectExtension.swift in Sources */,
 				91A4B3431B817F9F00C1ABAF /* CVCalendarView.swift in Sources */,
@@ -1228,7 +1257,6 @@
 				91FC6B381B7D80600086E6AA /* SDWebImageDownloaderOperation.m in Sources */,
 				91FC6B081B7D80600086E6AA /* NSManagedObjectExtension.swift in Sources */,
 				91FC6B441B7D80600086E6AA /* SSWAnimator.m in Sources */,
-				9125791A1B859A6300A13032 /* ID.swift in Sources */,
 				91A4B3521B817F9F00C1ABAF /* CVShape.swift in Sources */,
 				91A4B3401B817F9F00C1ABAF /* CVCalendarMonthContentViewController.swift in Sources */,
 				91FC6B431B7D80600086E6AA /* SloppySwiperNavigationController.m in Sources */,
@@ -1362,7 +1390,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jing fan (549K9DE5MZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jing fan (549K9DE5MZ)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1383,7 +1413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing QingChuang Technology Co., Ltd. (V4Q5CVEM8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing QingChuang Technology Co., Ltd. (V4Q5CVEM8S)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",

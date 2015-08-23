@@ -34,6 +34,14 @@ class LighBaseTableViewController: LighBaseViewController ,UITableViewDelegate,U
     
     }
     
+    /***
+        添加测试数据
+    **/
+    func setTestData(){
+        self.dataArray = ["","","","","","","",""]
+        self.tableview?.reloadData()
+    }
+    
     
     /**
     **
@@ -118,9 +126,9 @@ class LighBaseTableViewController: LighBaseViewController ,UITableViewDelegate,U
     此方法默认不实现 如果有固定高度的 应该使用 tableView.rowHeight
     *
     **/
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        
-        return self.heightForRowAtIndexPath(tableview!, atIndexPath: indexPath)
-    }
+//    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+//        
+//        return self.heightForRowAtIndexPath(tableview!, atIndexPath: indexPath)
+//    }
     
 }

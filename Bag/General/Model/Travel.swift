@@ -2,7 +2,7 @@
 //  Travel.swift
 //  Bag
 //
-//  Created by ligh on 15/8/20.
+//  Created by ligh on 15/8/22.
 //  Copyright (c) 2015年 ligh. All rights reserved.
 //
 

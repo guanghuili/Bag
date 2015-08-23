@@ -94,6 +94,22 @@ extension NSManagedObject {
         return fetchedResultsController;
     }
     
+    
+    //统计数量
+    class func countForPredicateFormat(predicateFormat:String? = nil,args: CVarArgType...) ->Int{
+        
+        var predicate:NSPredicate? = nil
+        
+        if let temppredicateFormat = predicateFormat {
+            predicate = NSPredicate(format: temppredicateFormat, arguments: getVaList(args))
+        }
+    
+        var request = self.fetchRequest(predicate: predicate)
+        request.resultType = .CountResultType
+        
+        return self.managedObjectContext().countForFetchRequest(request, error: nil)
+        
+    }
 
     
     
@@ -160,6 +176,7 @@ extension NSManagedObject {
         }
         
         request.sortDescriptors = sortDescriptorArray
+        
         
         
         return request

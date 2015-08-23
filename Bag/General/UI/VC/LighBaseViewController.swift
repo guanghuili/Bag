@@ -49,6 +49,8 @@ class LighBaseViewController : UIViewController,UITextFieldDelegate
     //配置views
     func configViews()
     {
+        ///
+        self.edgesForExtendedLayout = UIRectEdge.None
         
         navigationBarView = self.loadNavigationBarView()
         navigationBarView.leftButton.addTarget(self, action: "onLeftNavigationBarItemTaped", forControlEvents: .TouchUpInside)

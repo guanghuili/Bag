@@ -2,7 +2,7 @@
 //  Article.swift
 //  Bag
 //
-//  Created by ligh on 15/8/20.
+//  Created by ligh on 15/8/22.
 //  Copyright (c) 2015年 ligh. All rights reserved.
 //
 
@@ -14,5 +14,6 @@ class Article: NSManagedObject {
 
     @NSManaged var a_id: NSNumber
     @NSManaged var name: String
+    @NSManaged var articelCategory: Article
 
 }

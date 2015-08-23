@@ -43,10 +43,7 @@ class TravelArticlesViewController : LighBaseTableViewController{
      func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 48
     }
-    
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 44
-    }
+
     
     override func cellDataAtIndexPath(indexPath: NSIndexPath) -> AnyObject {
         return ""

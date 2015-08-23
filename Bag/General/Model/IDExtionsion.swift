@@ -80,4 +80,37 @@ extension ID {
         
     }
     
+    
+    //查看下一个article_category_id
+    class func next_ArticleCategoryID() ->NSNumber {
+        
+        var id:AnyObject? = self.fetchObject(maxKey: "article_category_id")
+        
+        if let tempID = id {
+            
+            //查询出最大的article_category_id  +1 就是下一个id
+            return (tempID as! ID).article_category_id.integerValue + 1
+            
+        }else
+        {
+            var id:ID = ID.newObject() as! ID
+            id.article_category_id = 1
+            id.save()
+            
+            return 1;
+        }
+        
+    }
+    
+    //生成article_category_id
+    class func makeArticleCategoryID() ->NSNumber {
+        
+        var id:ID = self.newObject() as! ID
+        id.article_category_id = self.next_ArticleCategoryID()
+        id.save()
+        
+        return id.article_category_id
+        
+    }
+    
 }

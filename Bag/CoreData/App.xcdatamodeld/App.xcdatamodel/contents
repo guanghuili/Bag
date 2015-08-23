@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14A386a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ArticelCateogry" representedClassName="ArticelCateogry" syncable="YES">
+        <attribute name="ac_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order_number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="articles" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Article" syncable="YES"/>
+    </entity>
     <entity name="Article" representedClassName="Article" syncable="YES">
         <attribute name="a_id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="articelCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="articelCategory" inverseEntity="Article" syncable="YES"/>
     </entity>
     <entity name="ID" representedClassName="ID" syncable="YES">
+        <attribute name="article_category_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="article_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="traffic_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="travel_id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
@@ -33,10 +42,11 @@
         <relationship name="travel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Travel" inverseName="travelArticle" inverseEntity="Travel" syncable="YES"/>
     </entity>
     <elements>
-        <element name="ID" positionX="-63" positionY="-9" width="128" height="105"/>
-        <element name="Travel" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="ArticelCateogry" positionX="-45" positionY="63" width="128" height="120"/>
+        <element name="Article" positionX="-45" positionY="63" width="128" height="90"/>
+        <element name="ID" positionX="-63" positionY="-9" width="128" height="120"/>
         <element name="Traffic" positionX="-63" positionY="9" width="128" height="150"/>
-        <element name="Article" positionX="-45" positionY="63" width="128" height="75"/>
+        <element name="Travel" positionX="-63" positionY="-18" width="128" height="120"/>
         <element name="TravelArticle" positionX="-36" positionY="72" width="128" height="105"/>
     </elements>
 </model>
