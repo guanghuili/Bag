@@ -157,8 +157,8 @@ class ArticlesViewController: LighBaseTableViewController {
                 
                 nextCategoryView.frame = self.editingArticleCategoryView!.frame
                 self.editingArticleCategoryView?.frame = nextCategoryViewFrame
+                self.categoriesScrollView.contentOffset = CGPointMake(0,self.editingArticleCategoryView!.y/2.0)
                 
-                self.scrollToVisableRect()
             })
             
         }
@@ -188,9 +188,10 @@ class ArticlesViewController: LighBaseTableViewController {
             
             UIView.animate({ () -> Void in
                 
+
                 upCategoryView.frame = self.editingArticleCategoryView!.frame
                 self.editingArticleCategoryView?.frame = upCategoryViewFrame
-                self.scrollToVisableRect()
+                self.categoriesScrollView.contentOffset = CGPointMake(0,self.editingArticleCategoryView!.y/2.0)
 
             })
             
@@ -199,19 +200,6 @@ class ArticlesViewController: LighBaseTableViewController {
         CoreDataManager.sharedCoreDataManager().saveContext()
 
     }
-    
-    /**
-    将CategroyView滚动到可见区域
-    **/
-    func scrollToVisableRect()
-    {
-        
-    
-        self.categoriesScrollView.contentOffset = CGPointMake(0,self.editingArticleCategoryView!.y/1.5)
-        
-        
-    }
-
     
     //mark UITableViewDegate UITableViewDataSource
     override func cellIdentifierForIndexPath(indexPath: NSIndexPath) -> String {
